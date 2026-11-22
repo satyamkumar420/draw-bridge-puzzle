@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/React-19.2-61dafb?style=flat-square&logo=react" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-6.0-3178c6?style=flat-square&logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Vite-8.3-646cff?style=flat-square&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/YouTube%20Playables-Compliant-red?style=flat-square&logo=youtube" alt="YouTube Playables" />
+  <a href="https://draw-bridge-puzzle.pages.dev"><img src="https://img.shields.io/badge/Cloudflare_Pages-Live_Demo-f38020?style=flat-square&logo=cloudflare" alt="Cloudflare Pages Live" /></a>
   <img src="https://img.shields.io/badge/Levels-100%2B-success?style=flat-square" alt="Levels" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" />
 </p>
@@ -57,8 +57,8 @@ Every stroke counts: draw bridges with structural integrity, account for vehicle
 - Native multi-language support:
   English (`en`), Hindi (`hi`), Spanish (`es`), French (`fr`), German (`de`), Japanese (`ja`), Korean (`ko`), Chinese Simplified (`zh-Hans`), Chinese Traditional (`zh-Hant`), Portuguese (`pt`), Italian (`it`), Russian (`ru`), Arabic (`ar`), Vietnamese (`vi`), Indonesian (`id`), Thai (`th`), Turkish (`tr`), Dutch (`nl`), Ukrainian (`uk`), Romanian (`ro`), Malay (`ms`).
 
-### 📱 YouTube Playables & Mobile Ready
-- Built to adhere to the official **YouTube Playables SDK** lifecycle (`ytgame.game.firstFrameReady`, `ytgame.game.gameReady`, auto pause/resume on focus loss, cloud save/restore).
+### 📱 Mobile Ready & LocalStorage
+- Offline-ready with browser `localStorage` persistence (`safeStorage`).
 - Fully responsive canvas scaling supporting portrait, landscape, mobile touch input, and desktop mouse controls.
 
 ---
