@@ -1,0 +1,141 @@
+{
+  "id": "level-99",
+  "name": "Level 99",
+  "description": "Staggered Pinnacle Ascent: 280px net climb over tiered castle bastions and dual chasms under guillotine, wrecking ball, and tesla!",
+  "gravity": 12,
+  "spawn": {
+    "x": 55,
+    "y": 447.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 190,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 0,
+      "y": 470,
+      "width": 240,
+      "height": 130
+    },
+    {
+      "id": "t-bottom-99-0",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 240,
+      "y": 530,
+      "width": 130,
+      "height": 70
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 370,
+      "y": 330,
+      "width": 190,
+      "height": 270
+    },
+    {
+      "id": "t-bottom-99-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 560,
+      "y": 530,
+      "width": 140,
+      "height": 70
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 700,
+      "y": 190,
+      "width": 300,
+      "height": 410
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 203,
+      "y": 295,
+      "width": 46,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 190,
+        "speed": 5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 434,
+      "y": 163,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 195,
+        "speed": 4.8,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-1790753616425",
+      "type": "plasma",
+      "x": 574,
+      "y": 149,
+      "width": 48,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 190,
+        "speed": 5.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790753643345",
+      "type": "ice_spikes",
+      "x": 566,
+      "y": 497,
+      "width": 127,
+      "height": 32
+    },
+    {
+      "id": "h-1790753653307",
+      "type": "stalactite",
+      "x": 243,
+      "y": 478,
+      "width": 119,
+      "height": 50
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 305,
+      "y": 290,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 630,
+      "y": 140,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

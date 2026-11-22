@@ -1,0 +1,110 @@
+{
+  "id": "level-61",
+  "name": "Level 61",
+  "description": "Mountain Ascent Canyon: Steep uphill climb of 197px!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 420.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 641,
+    "y": 246,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 0,
+      "y": 443,
+      "width": 335,
+      "height": 157
+    },
+    {
+      "id": "t-bottom-61-0",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 335,
+      "y": 530,
+      "width": 246,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 581,
+      "y": 246,
+      "width": 419,
+      "height": 354
+    },
+    {
+      "id": "t-1790682060800",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 327,
+      "y": 294,
+      "width": 120,
+      "height": 300
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-3",
+      "type": "blackhole",
+      "x": 486,
+      "y": 288,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 4,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790682104952",
+      "type": "mine",
+      "x": 359,
+      "y": 167,
+      "width": 54,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 3.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790766350532",
+      "type": "ice_spikes",
+      "x": 474,
+      "y": 494,
+      "width": 80,
+      "height": 35
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 295,
+      "y": 393,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 621,
+      "y": 196,
+      "collected": true
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

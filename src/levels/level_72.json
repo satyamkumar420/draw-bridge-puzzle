@@ -1,0 +1,153 @@
+{
+  "id": "level-72",
+  "name": "Level 72",
+  "description": "Broken Highway Gauntlet: Fractured highway spanning two chasms and patrolled by obstacles!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 361.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 384,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 0,
+      "y": 384,
+      "width": 263,
+      "height": 216
+    },
+    {
+      "id": "t-bottom-72-0",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 263,
+      "y": 530,
+      "width": 136,
+      "height": 70
+    },
+    {
+      "id": "road-mid",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 399,
+      "y": 384,
+      "width": 170,
+      "height": 216
+    },
+    {
+      "id": "t-bottom-72-1",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 569,
+      "y": 530,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 697,
+      "y": 384,
+      "width": 303,
+      "height": 216
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 454,
+      "y": 214,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 4.1,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790742946817",
+      "type": "laser",
+      "x": 567,
+      "y": 430,
+      "width": 127,
+      "height": 52,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 1.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790742950800",
+      "type": "laser",
+      "x": 263,
+      "y": 431,
+      "width": 134,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790743068818",
+      "type": "mine",
+      "x": 220,
+      "y": 243,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 150,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790743142620",
+      "type": "chakra",
+      "x": 695,
+      "y": 231,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 150,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 331,
+      "y": 334,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 633,
+      "y": 334,
+      "collected": true
+    }
+  ],
+  "skyTheme": "deep-space",
+  "wallTheme": "dark-slate",
+  "penColor": "black"
+}

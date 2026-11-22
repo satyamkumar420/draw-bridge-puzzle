@@ -1,0 +1,125 @@
+{
+  "id": "level-96",
+  "name": "Level 96",
+  "description": "Dual Peak Rollercoaster: Scale two 160px summits flanking a 220px deep trench under crusher, blackhole, and mine!",
+  "gravity": 12,
+  "spawn": {
+    "x": 55,
+    "y": 397.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 776,
+    "y": 418,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "plain-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 0,
+      "y": 420,
+      "width": 260,
+      "height": 180
+    },
+    {
+      "id": "peak-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 260,
+      "y": 354,
+      "width": 140,
+      "height": 340
+    },
+    {
+      "id": "trench",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 400,
+      "y": 480,
+      "width": 130,
+      "height": 120
+    },
+    {
+      "id": "peak-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 530,
+      "y": 262,
+      "width": 140,
+      "height": 340
+    },
+    {
+      "id": "plain-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 670,
+      "y": 420,
+      "width": 330,
+      "height": 180
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-3",
+      "type": "mine",
+      "x": 576,
+      "y": 131,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 5.2,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-1790751404981",
+      "type": "tesla",
+      "x": 304,
+      "y": 288,
+      "width": 50,
+      "height": 65,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790751429457",
+      "type": "laser",
+      "x": 407,
+      "y": 403,
+      "width": 116,
+      "height": 28,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 330,
+      "y": 110,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 600,
+      "y": 110,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

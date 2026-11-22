@@ -1,0 +1,135 @@
+{
+  "id": "level-62",
+  "name": "Level 62",
+  "description": "Double Chasm Pillar: Two deep pits separated by an isolated stone pillar!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 377.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 745,
+    "y": 400,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 0,
+      "y": 400,
+      "width": 262,
+      "height": 200
+    },
+    {
+      "id": "t-bottom-62-0",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 262,
+      "y": 530,
+      "width": 140,
+      "height": 70
+    },
+    {
+      "id": "mid-pillar",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 402,
+      "y": 400,
+      "width": 143,
+      "height": 200
+    },
+    {
+      "id": "t-bottom-62-1",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 545,
+      "y": 530,
+      "width": 140,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 685,
+      "y": 400,
+      "width": 315,
+      "height": 200
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 444,
+      "y": 292,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 4.1,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "meteor",
+      "x": 585,
+      "y": 325,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 150,
+        "speed": 4.1,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790682535834",
+      "type": "chakra",
+      "x": 224,
+      "y": 271,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "h-1790766447048",
+      "type": "acid",
+      "x": 546,
+      "y": 484,
+      "width": 138,
+      "height": 46
+    },
+    {
+      "id": "h-1790766450302",
+      "type": "acid",
+      "x": 262,
+      "y": 468,
+      "width": 140,
+      "height": 63
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 332,
+      "y": 350,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 615,
+      "y": 350,
+      "collected": false
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

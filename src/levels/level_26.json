@@ -1,0 +1,92 @@
+{
+  "id": "level-26",
+  "name": "Level 26",
+  "description": "Mountain Wall Ascent: Massive 208px vertical climb!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 449.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 685,
+    "y": 260,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": -125,
+      "y": 472,
+      "width": 442,
+      "height": 132
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 447,
+      "y": 261,
+      "width": 558,
+      "height": 340
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 278,
+      "y": 375,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 2.62,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 494,
+      "y": 107,
+      "width": 50,
+      "height": 52,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 3.75,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790664988479",
+      "type": "spikes",
+      "x": 318,
+      "y": 564,
+      "width": 131,
+      "height": 37
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 392,
+      "y": 408,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 582,
+      "y": 210,
+      "collected": false
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

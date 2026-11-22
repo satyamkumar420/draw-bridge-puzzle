@@ -1,0 +1,116 @@
+{
+  "id": "level-35",
+  "name": "Level 35",
+  "description": "Inverted Canyon Ascent: Steep 160px uphill climb over aerial crevasse!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 377.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 722,
+    "y": 240,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 400,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "trench-floor",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 260,
+      "y": 510,
+      "width": 420,
+      "height": 90
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 680,
+      "y": 240,
+      "width": 320,
+      "height": 360
+    },
+    {
+      "id": "t-1790761231899",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 394,
+      "y": 214,
+      "width": 129,
+      "height": 296
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "chakra",
+      "x": 216,
+      "y": 231,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 433,
+      "y": 98,
+      "width": 47,
+      "height": 43,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 3.5,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790765943844",
+      "type": "laser",
+      "x": 523,
+      "y": 380,
+      "width": 159,
+      "height": 65
+    },
+    {
+      "id": "h-1790765949343",
+      "type": "spikes",
+      "x": 263,
+      "y": 462,
+      "width": 138,
+      "height": 47
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 340,
+      "y": 200
+    },
+    {
+      "id": "c-2",
+      "x": 600,
+      "y": 200
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

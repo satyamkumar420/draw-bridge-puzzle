@@ -1,0 +1,181 @@
+{
+  "id": "level-63",
+  "name": "Level 63",
+  "description": "Triple Gorge Run: Three consecutive chasms with two stepping stones!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 337.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 744,
+    "y": 358,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 0,
+      "y": 360,
+      "width": 181,
+      "height": 240
+    },
+    {
+      "id": "t-bottom-63-0",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 181,
+      "y": 530,
+      "width": 110,
+      "height": 70
+    },
+    {
+      "id": "pillar-1",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 291,
+      "y": 360,
+      "width": 104,
+      "height": 240
+    },
+    {
+      "id": "t-bottom-63-1",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 395,
+      "y": 530,
+      "width": 110,
+      "height": 70
+    },
+    {
+      "id": "pillar-2",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 505,
+      "y": 360,
+      "width": 107,
+      "height": 240
+    },
+    {
+      "id": "t-bottom-63-2",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 612,
+      "y": 530,
+      "width": 110,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 722,
+      "y": 360,
+      "width": 278,
+      "height": 240
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "plasma",
+      "x": 424,
+      "y": 353,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 130,
+        "speed": 1.75,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "meteor",
+      "x": 641,
+      "y": 296,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 125,
+        "speed": 3.25,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790682687851",
+      "type": "guillotine",
+      "x": 304,
+      "y": 220,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790682708587",
+      "type": "chakra",
+      "x": 524,
+      "y": 168,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 150,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790766486735",
+      "type": "stalactite",
+      "x": 634,
+      "y": 481,
+      "width": 70,
+      "height": 50
+    },
+    {
+      "id": "h-1790766487346",
+      "type": "stalactite",
+      "x": 419,
+      "y": 481,
+      "width": 70,
+      "height": 50
+    },
+    {
+      "id": "h-1790766487799",
+      "type": "stalactite",
+      "x": 194,
+      "y": 481,
+      "width": 70,
+      "height": 50
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 343,
+      "y": 310,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 667,
+      "y": 310,
+      "collected": true
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "level-18",
+  "name": "Level 18",
+  "description": "Biohazard Gauntlet: Floating radioactive barrel and swinging pendulum blade on terrace slope!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 219.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 755,
+    "y": 411,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "launch-deck",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 242,
+      "width": 258,
+      "height": 358
+    },
+    {
+      "id": "slope-terrace",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 258,
+      "y": 350,
+      "width": 225,
+      "height": 250
+    },
+    {
+      "id": "t-bottom-18-0",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 483,
+      "y": 530,
+      "width": 178,
+      "height": 70
+    },
+    {
+      "id": "landing-deck",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 661,
+      "y": 414,
+      "width": 339,
+      "height": 186
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "guillotine",
+      "x": 448,
+      "y": 162,
+      "width": 46,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 35,
+        "speed": 3,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-1790660037967",
+      "type": "stalactite",
+      "x": 486,
+      "y": 473,
+      "width": 172,
+      "height": 56
+    },
+    {
+      "id": "h-1790764658973",
+      "type": "blackhole",
+      "x": 654,
+      "y": 247,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 190,
+        "speed": 3.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 308,
+      "y": 300
+    },
+    {
+      "id": "c-2",
+      "x": 572,
+      "y": 320
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

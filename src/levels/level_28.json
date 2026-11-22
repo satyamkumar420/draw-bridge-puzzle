@@ -1,0 +1,93 @@
+{
+  "id": "level-28",
+  "name": "Level 28",
+  "description": "Dungeon Plunge: Sheer drop across 240px pit of rock spikes guarded by mine!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 414.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 767,
+    "y": 281,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 437,
+      "width": 340,
+      "height": 320
+    },
+    {
+      "id": "t-bottom-28-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 340,
+      "y": 530,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 569,
+      "y": 280,
+      "width": 430,
+      "height": 320
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "stalactite",
+      "x": 360,
+      "y": 455,
+      "width": 200,
+      "height": 75,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 30,
+        "speed": 2.98,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 612,
+      "y": 148,
+      "width": 79,
+      "height": 85,
+      "movement": {
+        "axis": "vertical",
+        "distance": 45,
+        "speed": 2.86,
+        "phase": 1.5707963267948966
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 390,
+      "y": 330,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 530,
+      "y": 370,
+      "collected": false
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

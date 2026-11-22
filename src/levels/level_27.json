@@ -1,0 +1,101 @@
+{
+  "id": "level-27",
+  "name": "Level 27",
+  "description": "Ascending Terraces: Two-stage climb to the peak!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 443.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 223,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 466,
+      "width": 340,
+      "height": 134
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 340,
+      "y": 355,
+      "width": 332,
+      "height": 245
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 672,
+      "y": 223,
+      "width": 328,
+      "height": 377
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 669,
+      "y": 102,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 100,
+        "speed": 2.74,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790665247712",
+      "type": "chakra",
+      "x": 403,
+      "y": 168,
+      "width": 53,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 3.75,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790665414043",
+      "type": "tnt",
+      "x": 271,
+      "y": 423,
+      "width": 66,
+      "height": 41
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 390,
+      "y": 305,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 722,
+      "y": 173,
+      "collected": true
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

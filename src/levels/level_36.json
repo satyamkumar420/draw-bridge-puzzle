@@ -1,0 +1,104 @@
+{
+  "id": "level-36",
+  "name": "Level 36",
+  "description": "Ski Jump Speed Run: High-speed acceleration ramp into hazard gap!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 370.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 788,
+    "y": 406,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "launch-deck",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 393,
+      "width": 266,
+      "height": 284
+    },
+    {
+      "id": "slope-terrace",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 255,
+      "y": 285,
+      "width": 206,
+      "height": 322
+    },
+    {
+      "id": "t-bottom-36-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 461,
+      "y": 530,
+      "width": 194,
+      "height": 70
+    },
+    {
+      "id": "landing-deck",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 655,
+      "y": 408,
+      "width": 345,
+      "height": 192
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790670034080",
+      "type": "acid",
+      "x": 462,
+      "y": 404,
+      "width": 191,
+      "height": 126
+    },
+    {
+      "id": "h-1790670172824",
+      "type": "blackhole",
+      "x": 658,
+      "y": 307,
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "h-1790670177956",
+      "type": "blackhole",
+      "x": 327,
+      "y": 158,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 110,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 296,
+      "y": 285,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 558,
+      "y": 305,
+      "collected": false
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

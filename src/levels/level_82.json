@@ -1,0 +1,112 @@
+{
+  "id": "level-82",
+  "name": "Level 82",
+  "description": "Sheer Cliff Plunge: Vertical drop of 198px!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 351.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 793,
+    "y": 449,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 1,
+      "y": 374,
+      "width": 414,
+      "height": 345
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 414,
+      "y": 453,
+      "width": 586,
+      "height": 147
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "plasma",
+      "x": 634,
+      "y": 289,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 4.1,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "toxic_barrel",
+      "x": 722,
+      "y": 410,
+      "width": 42,
+      "height": 44,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 45,
+        "speed": 4.1,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790745904776",
+      "type": "chakra",
+      "x": 298,
+      "y": 190,
+      "width": 53,
+      "height": 71,
+      "movement": {
+        "axis": "vertical",
+        "distance": 220,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790745927321",
+      "type": "wrecking_ball",
+      "x": 532,
+      "y": 280,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 364,
+      "y": 205,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 574,
+      "y": 393,
+      "collected": false
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

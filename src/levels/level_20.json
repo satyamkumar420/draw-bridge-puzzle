@@ -1,0 +1,105 @@
+{
+  "id": "level-20",
+  "name": "Level 20",
+  "description": "Fortress Triple Chasm: Extreme 240px climb across dual chasms under crusher, chakra, and guillotine!",
+  "gravity": 10.4,
+  "spawn": {
+    "x": 55,
+    "y": 437.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 752,
+    "y": 219,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 460,
+      "width": 250,
+      "height": 140
+    },
+    {
+      "id": "t-bottom-20-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 250,
+      "y": 530,
+      "width": 130,
+      "height": 70
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 380,
+      "y": 330,
+      "width": 170,
+      "height": 270
+    },
+    {
+      "id": "t-bottom-20-1",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 550,
+      "y": 530,
+      "width": 140,
+      "height": 70
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 690,
+      "y": 220,
+      "width": 310,
+      "height": 380
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790660308281",
+      "type": "tnt",
+      "x": 573,
+      "y": 473,
+      "width": 95,
+      "height": 55
+    },
+    {
+      "id": "h-1790663686217",
+      "type": "chakra",
+      "x": 421,
+      "y": 199,
+      "width": 92,
+      "height": 81
+    },
+    {
+      "id": "h-1790764850678",
+      "type": "spikes",
+      "x": 270,
+      "y": 499,
+      "width": 80,
+      "height": 30
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 315,
+      "y": 280
+    },
+    {
+      "id": "c-2",
+      "x": 620,
+      "y": 150
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

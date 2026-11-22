@@ -1,0 +1,101 @@
+{
+  "id": "level-32",
+  "name": "Level 32",
+  "description": "Narrow Slot Ravine: Deep vertical gorge swept by obstacles!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 344.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 713,
+    "y": 365,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 367,
+      "width": 424,
+      "height": 233
+    },
+    {
+      "id": "t-bottom-32-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 424,
+      "y": 530,
+      "width": 146,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 570,
+      "y": 367,
+      "width": 430,
+      "height": 233
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 354,
+      "y": 264,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 110,
+        "speed": 3.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "meteor",
+      "x": 576,
+      "y": 238,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 2.74,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790668654566",
+      "type": "fire",
+      "x": 423,
+      "y": 447,
+      "width": 145,
+      "height": 80
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 394,
+      "y": 317,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 600,
+      "y": 317,
+      "collected": false
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

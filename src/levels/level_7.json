@@ -1,0 +1,102 @@
+{
+  "id": "level-7",
+  "name": "Level 7",
+  "description": "Tiered Descent: Four-step staircase descent past radioactive waste and live TNT barrel!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 364.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 811,
+    "y": 459,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": -4,
+      "y": 387,
+      "width": 305,
+      "height": 395
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 292,
+      "y": 287,
+      "width": 257,
+      "height": 317
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 497,
+      "y": 380,
+      "width": 243,
+      "height": 220
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 740,
+      "y": 461,
+      "width": 260,
+      "height": 139
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "tnt",
+      "x": 392,
+      "y": 241,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 145,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790684876749",
+      "type": "wrecking_ball",
+      "x": 608,
+      "y": 210,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 290,
+      "y": 243,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 547,
+      "y": 340,
+      "collected": false
+    }
+  ],
+  "skyTheme": "azure-noon",
+  "wallTheme": "brick-red",
+  "penColor": "black"
+}

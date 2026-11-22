@@ -1,0 +1,107 @@
+{
+  "id": "level-48",
+  "name": "Level 48",
+  "description": "Glacial Ridge Ascent: Steep 170px climb over moving razor stalagmite field and tnt!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 407.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 260,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 430,
+      "width": 330,
+      "height": 170
+    },
+    {
+      "id": "t-bottom-48-0",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 330,
+      "y": 530,
+      "width": 250,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 580,
+      "y": 260,
+      "width": 420,
+      "height": 340
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "stalactite",
+      "x": 350,
+      "y": 445,
+      "width": 210,
+      "height": 85,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 32,
+        "speed": 3.6,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790678012853",
+      "type": "wrecking_ball",
+      "x": 268,
+      "y": 265,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790678041567",
+      "type": "plasma",
+      "x": 432,
+      "y": 170,
+      "width": 86,
+      "height": 86,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 2,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 380,
+      "y": 380,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 530,
+      "y": 210,
+      "collected": false
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

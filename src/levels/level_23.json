@@ -1,0 +1,86 @@
+{
+  "id": "level-23",
+  "name": "Level 23",
+  "description": "Volcanic Caldera: High-speed spinning saw cutter, toxic nuclear sludge, and descending magma meteor!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 332.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 740,
+    "y": 354,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 355,
+      "width": 373,
+      "height": 245
+    },
+    {
+      "id": "t-bottom-23-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 373,
+      "y": 530,
+      "width": 252,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 625,
+      "y": 355,
+      "width": 375,
+      "height": 245
+    },
+    {
+      "id": "t-1790663867939",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 361,
+      "y": 171,
+      "width": 271,
+      "height": 363
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790663926968",
+      "type": "guillotine",
+      "x": 473,
+      "y": 55,
+      "width": 47,
+      "height": 42,
+      "movement": {
+        "axis": "vertical",
+        "distance": 100,
+        "speed": 3.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 448.6,
+      "y": 305
+    },
+    {
+      "id": "c-2",
+      "x": 549.4,
+      "y": 305
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

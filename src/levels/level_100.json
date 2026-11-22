@@ -1,0 +1,173 @@
+{
+  "id": "level-100",
+  "name": "Level 100",
+  "description": "Celestial Citadel Omega: The Ultimate 100th Challenge! 310px four-tier climb across three chasms to the Sky Throne!",
+  "gravity": 12.2,
+  "spawn": {
+    "x": 55,
+    "y": 457.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 821,
+    "y": 167,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 0,
+      "y": 480,
+      "width": 200,
+      "height": 120
+    },
+    {
+      "id": "t-bottom-100-0",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 200,
+      "y": 511,
+      "width": 131,
+      "height": 92
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 319,
+      "y": 393,
+      "width": 140,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-100-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 460,
+      "y": 530,
+      "width": 120,
+      "height": 70
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 580,
+      "y": 270,
+      "width": 140,
+      "height": 330
+    },
+    {
+      "id": "t-bottom-100-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 720,
+      "y": 530,
+      "width": 120,
+      "height": 70
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 840,
+      "y": 170,
+      "width": 160,
+      "height": 430
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 226,
+      "y": 369,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 100,
+        "speed": 3.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 365,
+      "y": 214,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 210,
+        "speed": 3.25,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "blackhole",
+      "x": 739,
+      "y": 132,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.75,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-1790753823590",
+      "type": "mine",
+      "x": 619,
+      "y": 111,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 215,
+        "speed": 6,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790753931459",
+      "type": "water",
+      "x": 721,
+      "y": 446,
+      "width": 119,
+      "height": 85
+    },
+    {
+      "id": "h-1790753934541",
+      "type": "acid",
+      "x": 460,
+      "y": 449,
+      "width": 118,
+      "height": 80
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 260,
+      "y": 300,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 780,
+      "y": 120,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

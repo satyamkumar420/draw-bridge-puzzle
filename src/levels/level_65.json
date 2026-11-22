@@ -1,0 +1,107 @@
+{
+  "id": "level-65",
+  "name": "Level 65",
+  "description": "Terrace Cascades: Two-stage descending staircase!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 422.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 480,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 0,
+      "y": 445,
+      "width": 315,
+      "height": 370
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 315,
+      "y": 340,
+      "width": 345,
+      "height": 260
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 660,
+      "y": 480,
+      "width": 340,
+      "height": 120
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 230,
+      "y": 262,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 150,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "blackhole",
+      "x": 465,
+      "y": 284,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 50,
+        "speed": 3.9,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790683240621",
+      "type": "meteor",
+      "x": 701,
+      "y": 243,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 155,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 365,
+      "y": 290,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 710,
+      "y": 430,
+      "collected": false
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "level-33",
+  "name": "Level 33",
+  "description": "Cloud Skyscraper: Goal perched high atop a lonely citadel!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 414.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 756,
+    "y": 222,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 437,
+      "width": 385,
+      "height": 163
+    },
+    {
+      "id": "t-bottom-33-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 385,
+      "y": 530,
+      "width": 344,
+      "height": 70
+    },
+    {
+      "id": "tower-goal",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 729,
+      "y": 225,
+      "width": 271,
+      "height": 377
+    },
+    {
+      "id": "t-1790668790738",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 486,
+      "y": 300,
+      "width": 155,
+      "height": 260
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 317,
+      "y": 301,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 115,
+        "speed": 2.86,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790668823883",
+      "type": "water",
+      "x": 641,
+      "y": 392,
+      "width": 89,
+      "height": 137
+    },
+    {
+      "id": "h-1790668827133",
+      "type": "water",
+      "x": 387,
+      "y": 472,
+      "width": 100,
+      "height": 57
+    },
+    {
+      "id": "h-1790765872603",
+      "type": "guillotine",
+      "x": 532,
+      "y": 139,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 130,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 445,
+      "y": 330,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 669,
+      "y": 270,
+      "collected": false
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

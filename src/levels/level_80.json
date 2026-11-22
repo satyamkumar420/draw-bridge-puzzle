@@ -1,0 +1,121 @@
+{
+  "id": "level-80",
+  "name": "Level 80",
+  "description": "Double Chasm Pillar: Two deep pits separated by an isolated stone pillar!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 377.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 742,
+    "y": 400,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 0,
+      "y": 400,
+      "width": 250,
+      "height": 200
+    },
+    {
+      "id": "t-bottom-80-0",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 250,
+      "y": 530,
+      "width": 146,
+      "height": 70
+    },
+    {
+      "id": "mid-pillar",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 396,
+      "y": 211,
+      "width": 147,
+      "height": 390
+    },
+    {
+      "id": "t-bottom-80-1",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 536,
+      "y": 530,
+      "width": 146,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 682,
+      "y": 400,
+      "width": 318,
+      "height": 200
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "tesla",
+      "x": 687,
+      "y": 345,
+      "width": 44,
+      "height": 50
+    },
+    {
+      "id": "h-2",
+      "type": "blackhole",
+      "x": 448,
+      "y": 81,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 4,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790745033060",
+      "type": "crusher",
+      "x": 556,
+      "y": 464,
+      "width": 112,
+      "height": 65
+    },
+    {
+      "id": "h-1790745037724",
+      "type": "stalactite",
+      "x": 262,
+      "y": 476,
+      "width": 122,
+      "height": 52
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 323,
+      "y": 350,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 609,
+      "y": 350,
+      "collected": false
+    }
+  ],
+  "skyTheme": "deep-space",
+  "wallTheme": "dark-slate",
+  "penColor": "black"
+}

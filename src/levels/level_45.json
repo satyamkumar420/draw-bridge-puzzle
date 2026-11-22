@@ -1,0 +1,153 @@
+{
+  "id": "level-45",
+  "name": "Level 45",
+  "description": "Triple Gorge Run: Three consecutive chasms with two stepping stones!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 352.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 762,
+    "y": 373,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 375,
+      "width": 215,
+      "height": 225
+    },
+    {
+      "id": "t-bottom-45-0",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 215,
+      "y": 530,
+      "width": 105,
+      "height": 70
+    },
+    {
+      "id": "pillar-1",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 320,
+      "y": 375,
+      "width": 110,
+      "height": 225
+    },
+    {
+      "id": "t-bottom-45-1",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 430,
+      "y": 530,
+      "width": 105,
+      "height": 70
+    },
+    {
+      "id": "pillar-2",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 535,
+      "y": 375,
+      "width": 95,
+      "height": 225
+    },
+    {
+      "id": "t-bottom-45-2",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 630,
+      "y": 530,
+      "width": 105,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 735,
+      "y": 375,
+      "width": 265,
+      "height": 225
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 355,
+      "y": 239,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 3.3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790676335764",
+      "type": "laser",
+      "x": 629,
+      "y": 382,
+      "width": 107,
+      "height": 54
+    },
+    {
+      "id": "h-1790676340308",
+      "type": "fire",
+      "x": 215,
+      "y": 472,
+      "width": 103,
+      "height": 59
+    },
+    {
+      "id": "h-1790676343892",
+      "type": "spikes",
+      "x": 435,
+      "y": 461,
+      "width": 98,
+      "height": 68
+    },
+    {
+      "id": "h-1790676406381",
+      "type": "guillotine",
+      "x": 547,
+      "y": 243,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 125,
+        "speed": 1.75,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 375,
+      "y": 325,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 682.5,
+      "y": 325,
+      "collected": true
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

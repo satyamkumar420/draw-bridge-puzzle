@@ -1,0 +1,113 @@
+{
+  "id": "level-25",
+  "name": "Level 25",
+  "description": "Citadel Summit Pinnacle: 260px mountain ascent over dual chasms guarded by crusher, wrecking ball, and plasma!",
+  "gravity": 10.5,
+  "spawn": {
+    "x": 55,
+    "y": 447.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 728,
+    "y": 209,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 470,
+      "width": 250,
+      "height": 130
+    },
+    {
+      "id": "t-bottom-25-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 250,
+      "y": 530,
+      "width": 133,
+      "height": 71
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 381,
+      "y": 340,
+      "width": 170,
+      "height": 260
+    },
+    {
+      "id": "t-bottom-25-1",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 550,
+      "y": 530,
+      "width": 140,
+      "height": 70
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 690,
+      "y": 210,
+      "width": 310,
+      "height": 390
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790661225369",
+      "type": "water",
+      "x": 549,
+      "y": 424,
+      "width": 143,
+      "height": 106
+    },
+    {
+      "id": "h-1790661237621",
+      "type": "spikes",
+      "x": 249,
+      "y": 477,
+      "width": 131,
+      "height": 54
+    },
+    {
+      "id": "h-1790664653432",
+      "type": "chakra",
+      "x": 422,
+      "y": 158,
+      "width": 80,
+      "height": 72,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 4.25,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 315,
+      "y": 290,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 620,
+      "y": 140,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

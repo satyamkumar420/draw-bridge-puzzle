@@ -1,0 +1,126 @@
+{
+  "id": "level-31",
+  "name": "Level 31",
+  "description": "Broken Highway Gauntlet: Fractured highway spanning two chasms and patrolled by obstacles!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 416.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 377,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 1,
+      "y": 439,
+      "width": 274,
+      "height": 223
+    },
+    {
+      "id": "t-bottom-31-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 274,
+      "y": 530,
+      "width": 133,
+      "height": 70
+    },
+    {
+      "id": "road-mid",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 407,
+      "y": 328,
+      "width": 165,
+      "height": 271
+    },
+    {
+      "id": "t-bottom-31-1",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 572,
+      "y": 530,
+      "width": 124,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 696,
+      "y": 377,
+      "width": 304,
+      "height": 223
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 446,
+      "y": 146,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 195,
+        "speed": 2.62,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 719,
+      "y": 201,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 125,
+        "speed": 4.5,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790668444580",
+      "type": "laser",
+      "x": 277,
+      "y": 436,
+      "width": 130,
+      "height": 51
+    },
+    {
+      "id": "h-1790668468178",
+      "type": "laser",
+      "x": 570,
+      "y": 412,
+      "width": 126,
+      "height": 44
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 340.5,
+      "y": 327,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 634,
+      "y": 327
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

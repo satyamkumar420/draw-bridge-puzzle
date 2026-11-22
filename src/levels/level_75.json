@@ -1,0 +1,141 @@
+{
+  "id": "level-75",
+  "name": "Level 75",
+  "description": "Twin Peaks Rollercoaster: Dual canyons flanking an elevated middle summit!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 257.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 280,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "peak-1",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 0,
+      "y": 280,
+      "width": 230,
+      "height": 320
+    },
+    {
+      "id": "valley-1",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 230,
+      "y": 480,
+      "width": 130,
+      "height": 120
+    },
+    {
+      "id": "peak-mid",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 360,
+      "y": 280,
+      "width": 170,
+      "height": 320
+    },
+    {
+      "id": "valley-2",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 530,
+      "y": 480,
+      "width": 130,
+      "height": 120
+    },
+    {
+      "id": "peak-2",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 660,
+      "y": 280,
+      "width": 340,
+      "height": 320
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-3",
+      "type": "blackhole",
+      "x": 559,
+      "y": 114,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 3.9,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790743748997",
+      "type": "meteor",
+      "x": 256,
+      "y": 208,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790743763621",
+      "type": "mine",
+      "x": 423,
+      "y": 131,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 3.75,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790766538407",
+      "type": "stalactite",
+      "x": 549,
+      "y": 432,
+      "width": 91,
+      "height": 48
+    },
+    {
+      "id": "h-1790766539217",
+      "type": "stalactite",
+      "x": 262,
+      "y": 430,
+      "width": 70,
+      "height": 50
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 295,
+      "y": 240,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 595,
+      "y": 240,
+      "collected": true
+    }
+  ],
+  "skyTheme": "deep-space",
+  "wallTheme": "dark-slate",
+  "penColor": "black"
+}

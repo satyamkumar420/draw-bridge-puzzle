@@ -1,0 +1,117 @@
+{
+  "id": "level-19",
+  "name": "Level 19",
+  "description": "Demolition Ridge: Oscillating wrecking ball, spinning sawblade, and falling volcanic meteor!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 388.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 794,
+    "y": 409,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "plain-1",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 411,
+      "width": 281,
+      "height": 189
+    },
+    {
+      "id": "mound-1",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 281,
+      "y": 299,
+      "width": 152,
+      "height": 301
+    },
+    {
+      "id": "dip",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 433,
+      "y": 411,
+      "width": 113,
+      "height": 189
+    },
+    {
+      "id": "mound-2",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 546,
+      "y": 299,
+      "width": 152,
+      "height": 301
+    },
+    {
+      "id": "plain-2",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 698,
+      "y": 411,
+      "width": 302,
+      "height": 189
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 336,
+      "y": 129,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 35,
+        "speed": 3.4,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "meteor",
+      "x": 590,
+      "y": 208,
+      "width": 66,
+      "height": 64,
+      "movement": {
+        "axis": "vertical",
+        "distance": 35,
+        "speed": 3.2,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-1790764266201",
+      "type": "fire",
+      "x": 435,
+      "y": 358,
+      "width": 109,
+      "height": 53
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 489.5,
+      "y": 351
+    },
+    {
+      "id": "c-2",
+      "x": 622,
+      "y": 249
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

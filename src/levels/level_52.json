@@ -1,0 +1,123 @@
+{
+  "id": "level-52",
+  "name": "Level 52",
+  "description": "Twin Peaks Rollercoaster: Dual canyons flanking an elevated middle summit!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 269.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 292,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "peak-1",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 292,
+      "width": 244,
+      "height": 308
+    },
+    {
+      "id": "valley-1",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 244,
+      "y": 508,
+      "width": 140,
+      "height": 92
+    },
+    {
+      "id": "peak-mid",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 384,
+      "y": 292,
+      "width": 178,
+      "height": 308
+    },
+    {
+      "id": "valley-2",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 562,
+      "y": 508,
+      "width": 142,
+      "height": 92
+    },
+    {
+      "id": "peak-2",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 704,
+      "y": 292,
+      "width": 296,
+      "height": 308
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 439,
+      "y": 160,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 3.5,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "toxic_barrel",
+      "x": 601,
+      "y": 459,
+      "width": 63,
+      "height": 54,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790679988998",
+      "type": "tnt",
+      "x": 282,
+      "y": 457,
+      "width": 60,
+      "height": 49,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 70,
+        "speed": 2,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 314,
+      "y": 252
+    },
+    {
+      "id": "c-2",
+      "x": 633,
+      "y": 252
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

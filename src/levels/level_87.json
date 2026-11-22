@@ -1,0 +1,116 @@
+{
+  "id": "level-87",
+  "name": "Level 87",
+  "description": "Four-Step Pinnacle: Steep mountain climb across four tiers!",
+  "gravity": 11.8,
+  "spawn": {
+    "x": 55,
+    "y": 448.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 823,
+    "y": 354,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 0,
+      "y": 471,
+      "width": 240,
+      "height": 129
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 240,
+      "y": 403,
+      "width": 262,
+      "height": 197
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 502,
+      "y": 300,
+      "width": 263,
+      "height": 300
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 764,
+      "y": 354,
+      "width": 235,
+      "height": 377
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 339,
+      "y": 315,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 4.7,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "guillotine",
+      "x": 561,
+      "y": 138,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 4.7,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790747694024",
+      "type": "wrecking_ball",
+      "x": 718,
+      "y": 113,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 4,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 290,
+      "y": 353,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 552,
+      "y": 250,
+      "collected": true
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

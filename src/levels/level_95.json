@@ -1,0 +1,142 @@
+{
+  "id": "level-95",
+  "name": "Level 95",
+  "description": "Fortress Cascade Steps: Four descending tiers broken by dual chasm pits under crusher, plasma, and wrecking ball!",
+  "gravity": 12,
+  "spawn": {
+    "x": 55,
+    "y": 412.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 799,
+    "y": 468,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 1,
+      "y": 435,
+      "width": 200,
+      "height": 400
+    },
+    {
+      "id": "t-bottom-95-0",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 201,
+      "y": 510,
+      "width": 141,
+      "height": 89
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 340,
+      "y": 300,
+      "width": 140,
+      "height": 300
+    },
+    {
+      "id": "t-bottom-95-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 480,
+      "y": 530,
+      "width": 150,
+      "height": 70
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 630,
+      "y": 390,
+      "width": 140,
+      "height": 210
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 770,
+      "y": 470,
+      "width": 230,
+      "height": 130
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 240,
+      "y": 320,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "wrecking_ball",
+      "x": 685,
+      "y": 218,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 5.2,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-1790750934802",
+      "type": "guillotine",
+      "x": 372,
+      "y": 123,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 200,
+        "speed": 5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790751078971",
+      "type": "acid",
+      "x": 481,
+      "y": 407,
+      "width": 149,
+      "height": 122
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 270,
+      "y": 200,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 555,
+      "y": 280,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

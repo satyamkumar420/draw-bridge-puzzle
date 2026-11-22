@@ -1,0 +1,90 @@
+{
+  "id": "level-5",
+  "name": "Level 5",
+  "description": "High-Voltage Gap: Pulsating Tesla coil and floating proximity mine over step terrain!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 252.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 756,
+    "y": 458,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 0,
+      "y": 275,
+      "width": 425,
+      "height": 325
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 425,
+      "y": 460,
+      "width": 575,
+      "height": 140
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "tesla",
+      "x": 685,
+      "y": 408,
+      "width": 44,
+      "height": 50
+    },
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 578,
+      "y": 260,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 2.4,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-1790762391209",
+      "type": "guillotine",
+      "x": 330,
+      "y": 85,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 3.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 375,
+      "y": 225
+    },
+    {
+      "id": "c-2",
+      "x": 585,
+      "y": 400
+    }
+  ],
+  "skyTheme": "azure-noon",
+  "wallTheme": "brick-red",
+  "penColor": "black"
+}

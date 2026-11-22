@@ -1,0 +1,94 @@
+{
+  "id": "level-22",
+  "name": "Level 22",
+  "description": "Hydraulic Ridge: Horizontal sweeping crusher patrolling above a razor spike pit!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 345.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 786,
+    "y": 369,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "runway",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 368,
+      "width": 609,
+      "height": 232
+    },
+    {
+      "id": "t-bottom-22-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 609,
+      "y": 530,
+      "width": 180,
+      "height": 70
+    },
+    {
+      "id": "goal-ledge",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 789,
+      "y": 368,
+      "width": 211,
+      "height": 232
+    },
+    {
+      "id": "t-1790660667515",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 351,
+      "y": 231,
+      "width": 257,
+      "height": 145
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "spikes",
+      "x": 619,
+      "y": 495,
+      "width": 175,
+      "height": 35
+    },
+    {
+      "id": "h-1790764977803",
+      "type": "wrecking_ball",
+      "x": 447,
+      "y": 68,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 3.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 529,
+      "y": 318
+    },
+    {
+      "id": "c-2",
+      "x": 699,
+      "y": 318
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

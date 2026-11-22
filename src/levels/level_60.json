@@ -1,0 +1,121 @@
+{
+  "id": "level-60",
+  "name": "Level 60",
+  "description": "Cliff Plunge Canyon: Steep 195px drop across a 250px gorge!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 324.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 663,
+    "y": 338,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 347,
+      "width": 310,
+      "height": 345
+    },
+    {
+      "id": "t-bottom-60-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 310,
+      "y": 530,
+      "width": 250,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 554,
+      "y": 337,
+      "width": 449,
+      "height": 264
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 254,
+      "y": 146,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790681625706",
+      "type": "laser",
+      "x": 308,
+      "y": 348,
+      "width": 140,
+      "height": 73,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790681627964",
+      "type": "laser",
+      "x": 440,
+      "y": 349,
+      "width": 112,
+      "height": 72,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790681719078",
+      "type": "plasma",
+      "x": 441,
+      "y": 148,
+      "width": 86,
+      "height": 86,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 2,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 270,
+      "y": 205,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 600,
+      "y": 400,
+      "collected": false
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

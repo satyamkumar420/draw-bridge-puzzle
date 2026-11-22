@@ -1,0 +1,101 @@
+{
+  "id": "level-2",
+  "name": "Level 2",
+  "description": "Toxic Spikes Incline: Sharp ground spikes and radioactive drum! Cross safely without falling!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 660,
+    "y": 380,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 0,
+      "y": 380,
+      "width": 420,
+      "height": 220
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 580,
+      "y": 380,
+      "width": 420,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-2-0",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 420,
+      "y": 530,
+      "width": 160,
+      "height": 70
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "spikes",
+      "x": 420,
+      "y": 495,
+      "width": 160,
+      "height": 35
+    },
+    {
+      "id": "h-1790684603772",
+      "type": "chakra",
+      "x": 372,
+      "y": 250,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 125,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790684615822",
+      "type": "blackhole",
+      "x": 541,
+      "y": 226,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 145,
+        "speed": 1.75,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 468,
+      "y": 330,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 532,
+      "y": 330,
+      "collected": false
+    }
+  ],
+  "skyTheme": "azure-noon",
+  "wallTheme": "brick-red",
+  "penColor": "black"
+}

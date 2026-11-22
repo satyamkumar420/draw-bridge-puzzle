@@ -1,0 +1,121 @@
+{
+  "id": "level-94",
+  "name": "Level 94",
+  "description": "Inverted Canyon Sky Leap: 220px sheer plunge over a 360px mega-void guarded by crusher, tesla, and blackhole!",
+  "gravity": 12,
+  "spawn": {
+    "x": 55,
+    "y": 337.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 742,
+    "y": 220,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "high-cliff",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 0,
+      "y": 360,
+      "width": 380,
+      "height": 420
+    },
+    {
+      "id": "t-bottom-94-0",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 280,
+      "y": 540,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "id": "landing-cliff",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 620,
+      "y": 220,
+      "width": 531,
+      "height": 388
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790750627236",
+      "type": "ice_spikes",
+      "x": 461,
+      "y": 505,
+      "width": 80,
+      "height": 35,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 155,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790750676937",
+      "type": "guillotine",
+      "x": 285,
+      "y": 173,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 155,
+        "speed": 4.75,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790750699686",
+      "type": "plasma",
+      "x": 442,
+      "y": 139,
+      "width": 70,
+      "height": 68,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 5.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790750745890",
+      "type": "tesla",
+      "x": 661,
+      "y": 154,
+      "width": 50,
+      "height": 65,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 3.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 340,
+      "y": 200,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 520,
+      "y": 270,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "level-12",
+  "name": "Level 12",
+  "description": "Acid Sawblade Basin: Spinning razor sawblade patrolling directly over a bubbling acid pool!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 287.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 749,
+    "y": 310,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 310,
+      "width": 262,
+      "height": 290
+    },
+    {
+      "id": "valley-floor",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 258,
+      "y": 510,
+      "width": 404,
+      "height": 91
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 661,
+      "y": 310,
+      "width": 339,
+      "height": 290
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "acid",
+      "x": 262,
+      "y": 320,
+      "width": 398,
+      "height": 193
+    },
+    {
+      "id": "h-1790685162729",
+      "type": "guillotine",
+      "x": 654,
+      "y": 178,
+      "width": 48,
+      "height": 20,
+      "movement": {
+        "axis": "vertical",
+        "distance": 130,
+        "speed": 3.75,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 332,
+      "y": 270,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 591,
+      "y": 270,
+      "collected": true
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

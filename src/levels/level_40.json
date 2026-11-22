@@ -1,0 +1,101 @@
+{
+  "id": "level-40",
+  "name": "Level 40",
+  "description": "Finish Line Chasm: High-speed sprint runway leading directly into a pit!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 347.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 797,
+    "y": 370,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "runway",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 370,
+      "width": 600,
+      "height": 230
+    },
+    {
+      "id": "t-bottom-40-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 600,
+      "y": 530,
+      "width": 200,
+      "height": 70
+    },
+    {
+      "id": "goal-ledge",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 800,
+      "y": 370,
+      "width": 200,
+      "height": 230
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790674555404",
+      "type": "chakra",
+      "x": 492,
+      "y": 289,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790674562013",
+      "type": "guillotine",
+      "x": 343,
+      "y": 190,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 130,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790674640381",
+      "type": "laser",
+      "x": 597,
+      "y": 375,
+      "width": 207,
+      "height": 82
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 520,
+      "y": 320,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 700,
+      "y": 320,
+      "collected": false
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

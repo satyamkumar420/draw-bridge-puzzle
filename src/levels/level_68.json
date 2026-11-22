@@ -1,0 +1,107 @@
+{
+  "id": "level-68",
+  "name": "Level 68",
+  "description": "Volcanic Caldera Plunge: Massive 200px drop over 270px chasm of magma spikes, meteor, and plasma!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 386.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 667,
+    "y": 274,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 0,
+      "y": 409,
+      "width": 330,
+      "height": 370
+    },
+    {
+      "id": "t-bottom-68-0",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 309,
+      "y": 532,
+      "width": 270,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 577,
+      "y": 277,
+      "width": 423,
+      "height": 322
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "meteor",
+      "x": 306,
+      "y": 244,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 210,
+        "speed": 4.2,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "plasma",
+      "x": 472,
+      "y": 150,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.5,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790683765968",
+      "type": "ice_spikes",
+      "x": 380,
+      "y": 455,
+      "width": 146,
+      "height": 77,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 380,
+      "y": 280,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 550,
+      "y": 380,
+      "collected": false
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

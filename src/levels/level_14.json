@@ -1,0 +1,89 @@
+{
+  "id": "level-14",
+  "name": "Level 14",
+  "description": "TNT Stomper Gorge: Explosive gunpowder barrel flanked by hydraulic spike crusher!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 341.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 757,
+    "y": 363,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 364,
+      "width": 438,
+      "height": 236
+    },
+    {
+      "id": "t-bottom-14-0",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 438,
+      "y": 530,
+      "width": 138,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 575,
+      "y": 367,
+      "width": 424,
+      "height": 236
+    },
+    {
+      "id": "t-1790659414006",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 386,
+      "y": 167,
+      "width": 240,
+      "height": 372
+    },
+    {
+      "id": "t-1790659421890",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 533,
+      "y": 255,
+      "width": 40,
+      "height": 20
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "tnt",
+      "x": 493,
+      "y": 118,
+      "width": 44,
+      "height": 45
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 408,
+      "y": 314
+    },
+    {
+      "id": "c-2",
+      "x": 606,
+      "y": 314
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "level-67",
+  "name": "Level 67",
+  "description": "Mountain Wall Ascent: Massive 206px vertical climb!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 448.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 265,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 0,
+      "y": 471,
+      "width": 429,
+      "height": 129
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 429,
+      "y": 265,
+      "width": 571,
+      "height": 335
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 480,
+      "y": 123,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 90,
+        "speed": 4.1,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "tnt",
+      "x": 619,
+      "y": 209,
+      "width": 42,
+      "height": 42,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 40,
+        "speed": 4.1,
+        "phase": 3.141592653589793
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 379,
+      "y": 411,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 569,
+      "y": 215,
+      "collected": true
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

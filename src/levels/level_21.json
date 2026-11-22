@@ -1,0 +1,99 @@
+{
+  "id": "level-21",
+  "name": "Level 21",
+  "description": "Plasma Laser Rift: Oscillating laser pylon with overhead pulsating plasma core!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 267.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 732,
+    "y": 417,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 290,
+      "width": 340,
+      "height": 310
+    },
+    {
+      "id": "t-bottom-21-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 340,
+      "y": 530,
+      "width": 230,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 570,
+      "y": 420,
+      "width": 430,
+      "height": 180
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "plasma",
+      "x": 360,
+      "y": 135,
+      "width": 86,
+      "height": 84,
+      "movement": {
+        "axis": "vertical",
+        "distance": 210,
+        "speed": 3,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-1790660465554",
+      "type": "acid",
+      "x": 341,
+      "y": 415,
+      "width": 228,
+      "height": 114
+    },
+    {
+      "id": "h-1790764911558",
+      "type": "chakra",
+      "x": 601,
+      "y": 265,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 390,
+      "y": 330
+    },
+    {
+      "id": "c-2",
+      "x": 520,
+      "y": 370
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

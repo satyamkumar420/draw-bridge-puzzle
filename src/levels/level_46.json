@@ -1,0 +1,98 @@
+{
+  "id": "level-46",
+  "name": "Level 46",
+  "description": "Sheer Cliff Plunge: Vertical drop of 194px!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 232.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 786,
+    "y": 448,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 255,
+      "width": 437,
+      "height": 345
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 437,
+      "y": 449,
+      "width": 563,
+      "height": 151
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 327,
+      "y": 181,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 3.4,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "blackhole",
+      "x": 535,
+      "y": 126,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 130,
+        "speed": 3.4,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790676818967",
+      "type": "chakra",
+      "x": 649,
+      "y": 288,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 387,
+      "y": 205,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 597,
+      "y": 389,
+      "collected": true
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "level-59",
+  "name": "Level 59",
+  "description": "Grand Canyon Abyss: Massive 282px canyon span!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 312.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 797,
+    "y": 335,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 335,
+      "width": 344,
+      "height": 265
+    },
+    {
+      "id": "t-bottom-59-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 344,
+      "y": 530,
+      "width": 282,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 626,
+      "y": 335,
+      "width": 374,
+      "height": 265
+    },
+    {
+      "id": "t-1790681092388",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 470,
+      "y": 185,
+      "width": 190,
+      "height": 356
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 284,
+      "y": 183,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790681147102",
+      "type": "acid",
+      "x": 345,
+      "y": 409,
+      "width": 126,
+      "height": 121
+    },
+    {
+      "id": "h-1790681159636",
+      "type": "mine",
+      "x": 538,
+      "y": 67,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 428.6,
+      "y": 285,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 541.4,
+      "y": 285,
+      "collected": false
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

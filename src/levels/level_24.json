@@ -1,0 +1,108 @@
+{
+  "id": "level-24",
+  "name": "Level 24",
+  "description": "Cosmic Detonation: Gravitational meteor and floating naval mine on high approach!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 393.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 710,
+    "y": 445,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 1,
+      "y": 416,
+      "width": 319,
+      "height": 327
+    },
+    {
+      "id": "t-bottom-24-0",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 319,
+      "y": 530,
+      "width": 208,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 527,
+      "y": 445,
+      "width": 473,
+      "height": 155
+    },
+    {
+      "id": "t-1790664080788",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 529,
+      "y": 305,
+      "width": 120,
+      "height": 140
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790660930633",
+      "type": "spikes",
+      "x": 320,
+      "y": 464,
+      "width": 208,
+      "height": 66
+    },
+    {
+      "id": "h-1790660981108",
+      "type": "plasma",
+      "x": 316,
+      "y": 256,
+      "width": 74,
+      "height": 80,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790664177920",
+      "type": "guillotine",
+      "x": 557,
+      "y": 118,
+      "width": 58,
+      "height": 79,
+      "movement": {
+        "axis": "vertical",
+        "distance": 185,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 279,
+      "y": 223
+    },
+    {
+      "id": "c-2",
+      "x": 567,
+      "y": 395
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

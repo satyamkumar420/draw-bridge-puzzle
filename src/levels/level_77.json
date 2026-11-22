@@ -1,0 +1,115 @@
+{
+  "id": "level-77",
+  "name": "Level 77",
+  "description": "Grand Canyon Abyss: Massive 294px canyon span!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 322.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 704,
+    "y": 341,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 0,
+      "y": 345,
+      "width": 347,
+      "height": 255
+    },
+    {
+      "id": "t-bottom-77-0",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 347,
+      "y": 530,
+      "width": 294,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 560,
+      "y": 345,
+      "width": 441,
+      "height": 259
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "chakra",
+      "x": 283,
+      "y": 212,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 150,
+        "speed": 4.1,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "blackhole",
+      "x": 453,
+      "y": 183,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 215,
+        "speed": 4.45,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "toxic_barrel",
+      "x": 593,
+      "y": 301,
+      "width": 42,
+      "height": 44,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 40,
+        "speed": 4.1,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790744098966",
+      "type": "acid",
+      "x": 348,
+      "y": 397,
+      "width": 210,
+      "height": 134
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 435.2,
+      "y": 295,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 552.8,
+      "y": 295,
+      "collected": true
+    }
+  ],
+  "skyTheme": "deep-space",
+  "wallTheme": "dark-slate",
+  "penColor": "black"
+}

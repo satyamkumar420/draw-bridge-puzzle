@@ -1,0 +1,141 @@
+{
+  "id": "level-93",
+  "name": "Level 93",
+  "description": "Triple Staircase Chasm: 250px vertical climb across three staggered terraces under guillotine, mine, and tesla!",
+  "gravity": 12,
+  "spawn": {
+    "x": 55,
+    "y": 437.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 782,
+    "y": 206,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 0,
+      "y": 460,
+      "width": 220,
+      "height": 140
+    },
+    {
+      "id": "t-bottom-93-0",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 220,
+      "y": 530,
+      "width": 130,
+      "height": 70
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 350,
+      "y": 340,
+      "width": 150,
+      "height": 260
+    },
+    {
+      "id": "t-bottom-93-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 500,
+      "y": 530,
+      "width": 150,
+      "height": 70
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 650,
+      "y": 210,
+      "width": 350,
+      "height": 390
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 402,
+      "y": 169,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 195,
+        "speed": 4.8,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-1790749784030",
+      "type": "chakra",
+      "x": 179,
+      "y": 280,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790749800031",
+      "type": "spikes",
+      "x": 503,
+      "y": 456,
+      "width": 145,
+      "height": 75
+    },
+    {
+      "id": "h-1790750117849",
+      "type": "fire",
+      "x": 221,
+      "y": 455,
+      "width": 128,
+      "height": 74
+    },
+    {
+      "id": "h-1790750492546",
+      "type": "wrecking_ball",
+      "x": 647,
+      "y": 62,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 115,
+        "speed": 4.75,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 285,
+      "y": 280,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 575,
+      "y": 150,
+      "collected": false
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "level-41",
+  "name": "Level 41",
+  "description": "Grand Canyon Abyss: Massive 270px canyon span!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 302.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 765,
+    "y": 323,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 325,
+      "width": 341,
+      "height": 275
+    },
+    {
+      "id": "t-bottom-41-0",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 341,
+      "y": 530,
+      "width": 270,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 611,
+      "y": 325,
+      "width": 389,
+      "height": 275
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "meteor",
+      "x": 437,
+      "y": 130,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 3.4,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 632,
+      "y": 144,
+      "width": 48,
+      "height": 35,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 3.4,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790674985366",
+      "type": "acid",
+      "x": 340,
+      "y": 432,
+      "width": 271,
+      "height": 99
+    },
+    {
+      "id": "h-1790675308472",
+      "type": "crusher",
+      "x": 282,
+      "y": 264,
+      "width": 70,
+      "height": 60
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 422,
+      "y": 275,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 530,
+      "y": 275,
+      "collected": false
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

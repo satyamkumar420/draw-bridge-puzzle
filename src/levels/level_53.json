@@ -1,0 +1,107 @@
+{
+  "id": "level-53",
+  "name": "Level 53",
+  "description": "Deep Neon Plunge: Massive 210px drop across 260px abyss swept by crusher, chakra, and plasma!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 425.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 685,
+    "y": 374,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 448,
+      "width": 330,
+      "height": 370
+    },
+    {
+      "id": "t-bottom-53-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 330,
+      "y": 530,
+      "width": 260,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 589,
+      "y": 377,
+      "width": 408,
+      "height": 225
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 245,
+      "y": 266,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 3.6,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 437,
+      "y": 330,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 120,
+        "speed": 3.6,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "plasma",
+      "x": 588,
+      "y": 273,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 95,
+        "speed": 3.6,
+        "phase": 3.141592653589793
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 380,
+      "y": 280,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 540,
+      "y": 390,
+      "collected": false
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

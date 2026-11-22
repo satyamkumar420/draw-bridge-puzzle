@@ -1,0 +1,80 @@
+{
+  "id": "level-11",
+  "name": "Level 11",
+  "description": "Cryo Laser Gorge: Oscillating plasma laser beam over piercing glacial ice spikes!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 670,
+    "y": 380,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 380,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 570,
+      "y": 380,
+      "width": 430,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-11-0",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 400,
+      "y": 531,
+      "width": 170,
+      "height": 70
+    },
+    {
+      "id": "t-1790659146141",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 392,
+      "y": 248,
+      "width": 180,
+      "height": 283
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "ice_spikes",
+      "x": 397,
+      "y": 187,
+      "width": 171,
+      "height": 61
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 451,
+      "y": 330
+    },
+    {
+      "id": "c-2",
+      "x": 519,
+      "y": 330
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

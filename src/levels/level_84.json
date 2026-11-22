@@ -1,0 +1,96 @@
+{
+  "id": "level-84",
+  "name": "Level 84",
+  "description": "Grand Descent: Three-stage terrace staircase!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 361.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 785,
+    "y": 210,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 1,
+      "y": 384,
+      "width": 250,
+      "height": 408
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 249,
+      "y": 291,
+      "width": 244,
+      "height": 309
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 492,
+      "y": 391,
+      "width": 251,
+      "height": 210
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 728,
+      "y": 211,
+      "width": 275,
+      "height": 388
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790746575286",
+      "type": "laser",
+      "x": 489,
+      "y": 290,
+      "width": 241,
+      "height": 85
+    },
+    {
+      "id": "h-1790746601542",
+      "type": "tnt",
+      "x": 347,
+      "y": 242,
+      "width": 45,
+      "height": 45,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 130,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 300,
+      "y": 251,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 544,
+      "y": 350,
+      "collected": false
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

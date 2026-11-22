@@ -1,0 +1,102 @@
+{
+  "id": "level-66",
+  "name": "Level 66",
+  "description": "Grand Descent: Three-stage terrace staircase!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 811,
+    "y": 476,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": -1,
+      "y": 380,
+      "width": 275,
+      "height": 370
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 266,
+      "y": 298,
+      "width": 261,
+      "height": 306
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 496,
+      "y": 375,
+      "width": 254,
+      "height": 225
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 750,
+      "y": 478,
+      "width": 250,
+      "height": 122
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 372,
+      "y": 159,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 598,
+      "y": 196,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 195,
+        "speed": 4,
+        "phase": 1.5707963267948966
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 285,
+      "y": 254,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 546,
+      "y": 335,
+      "collected": false
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

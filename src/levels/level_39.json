@@ -1,0 +1,119 @@
+{
+  "id": "level-39",
+  "name": "Level 39",
+  "description": "Elevated Stepping Island: High central plateau standing tall above two chasms!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 323.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 390,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 346,
+      "width": 265,
+      "height": 254
+    },
+    {
+      "id": "t-bottom-39-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 265,
+      "y": 530,
+      "width": 152,
+      "height": 70
+    },
+    {
+      "id": "stepping-island",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 265,
+      "y": 263,
+      "width": 152,
+      "height": 318
+    },
+    {
+      "id": "t-bottom-39-1",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 588,
+      "y": 530,
+      "width": 152,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 740,
+      "y": 390,
+      "width": 260,
+      "height": 210
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "plasma",
+      "x": 506,
+      "y": 224,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 100,
+        "speed": 3.7,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790673930587",
+      "type": "ice_spikes",
+      "x": 418,
+      "y": 528,
+      "width": 167,
+      "height": 72
+    },
+    {
+      "id": "h-1790674360181",
+      "type": "guillotine",
+      "x": 299,
+      "y": 109,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 90,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 341,
+      "y": 306,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 664,
+      "y": 350,
+      "collected": true
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

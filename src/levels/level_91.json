@@ -1,0 +1,149 @@
+{
+  "id": "level-91",
+  "name": "Level 91",
+  "description": "Aurora Spire Chasm: Scale a 170px central tower between dual chasms, guarded by crusher, wrecking ball, and plasma!",
+  "gravity": 12,
+  "spawn": {
+    "x": 55,
+    "y": 367.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 430,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 0,
+      "y": 390,
+      "width": 220,
+      "height": 210
+    },
+    {
+      "id": "t-bottom-91-0",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 220,
+      "y": 530,
+      "width": 160,
+      "height": 70
+    },
+    {
+      "id": "central-spire",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 380,
+      "y": 220,
+      "width": 150,
+      "height": 380
+    },
+    {
+      "id": "t-bottom-91-1",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 530,
+      "y": 530,
+      "width": 170,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "dark-obsidian",
+      "x": 700,
+      "y": 430,
+      "width": 300,
+      "height": 170
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 422,
+      "y": 83,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 4.8,
+        "phase": 1.57
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "plasma",
+      "x": 600,
+      "y": 180,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 3,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-1790749449019",
+      "type": "guillotine",
+      "x": 172,
+      "y": 220,
+      "width": 60,
+      "height": 70
+    },
+    {
+      "id": "h-1790749455181",
+      "type": "guillotine",
+      "x": 717,
+      "y": 192,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790749506172",
+      "type": "laser",
+      "x": 530,
+      "y": 432,
+      "width": 170,
+      "height": 76
+    },
+    {
+      "id": "h-1790749520331",
+      "type": "toxic_barrel",
+      "x": 251,
+      "y": 445,
+      "width": 86,
+      "height": 86
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 300,
+      "y": 210,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 615,
+      "y": 220,
+      "collected": true
+    }
+  ],
+  "skyTheme": "dawn-aurora",
+  "wallTheme": "dark-obsidian",
+  "penColor": "black"
+}

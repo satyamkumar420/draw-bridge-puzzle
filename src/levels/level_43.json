@@ -1,0 +1,101 @@
+{
+  "id": "level-43",
+  "name": "Level 43",
+  "description": "Mountain Ascent Canyon: Steep uphill climb of 191px!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 426.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 617,
+    "y": 258,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 449,
+      "width": 325,
+      "height": 151
+    },
+    {
+      "id": "t-bottom-43-0",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 325,
+      "y": 530,
+      "width": 232,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 557,
+      "y": 258,
+      "width": 443,
+      "height": 342
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790675684898",
+      "type": "laser",
+      "x": 320,
+      "y": 440,
+      "width": 241,
+      "height": 60
+    },
+    {
+      "id": "h-1790675732442",
+      "type": "chakra",
+      "x": 279,
+      "y": 337,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 100,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790675753930",
+      "type": "wrecking_ball",
+      "x": 545,
+      "y": 119,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 285,
+      "y": 399,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 597,
+      "y": 208,
+      "collected": true
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

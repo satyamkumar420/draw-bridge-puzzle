@@ -1,0 +1,84 @@
+{
+  "id": "level-49",
+  "name": "Level 49",
+  "description": "Mountain Wall Ascent: Massive 222px vertical climb!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 454.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 699,
+    "y": 252,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 477,
+      "width": 453,
+      "height": 123
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 453,
+      "y": 255,
+      "width": 547,
+      "height": 345
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 290,
+      "y": 192,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 225,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790678290110",
+      "type": "wrecking_ball",
+      "x": 493,
+      "y": 142,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 4.25,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 403,
+      "y": 417,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 593,
+      "y": 205,
+      "collected": true
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

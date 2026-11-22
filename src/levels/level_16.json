@@ -1,0 +1,99 @@
+{
+  "id": "level-16",
+  "name": "Level 16",
+  "description": "Laser Gate Reactor: Oscillating plasma laser beam, floating mine, and roaring fire pit!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 337.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 639,
+    "y": 359,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 360,
+      "width": 380,
+      "height": 240
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 570,
+      "y": 360,
+      "width": 430,
+      "height": 240
+    },
+    {
+      "id": "t-bottom-16-0",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 380,
+      "y": 530,
+      "width": 190,
+      "height": 70
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-3",
+      "type": "fire",
+      "x": 380,
+      "y": 475,
+      "width": 190,
+      "height": 55
+    },
+    {
+      "id": "h-1790659786208",
+      "type": "plasma",
+      "x": 437,
+      "y": 143,
+      "width": 116,
+      "height": 96,
+      "movement": {
+        "axis": "vertical",
+        "distance": 200,
+        "speed": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790762184072",
+      "type": "guillotine",
+      "x": 281,
+      "y": 189,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 4,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 437,
+      "y": 310
+    },
+    {
+      "id": "c-2",
+      "x": 513,
+      "y": 310
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

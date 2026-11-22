@@ -1,0 +1,101 @@
+{
+  "id": "level-8",
+  "name": "Level 8",
+  "description": "Stalagmite Chasm: Sharp mineral spires on pit floor with swinging demolition wrecking ball!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 639,
+    "y": 380,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 0,
+      "y": 380,
+      "width": 410,
+      "height": 220
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 590,
+      "y": 380,
+      "width": 410,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-8-0",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 410,
+      "y": 530,
+      "width": 180,
+      "height": 70
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "stalactite",
+      "x": 410,
+      "y": 465,
+      "width": 180,
+      "height": 65
+    },
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 347,
+      "y": 260,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 2,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790684959641",
+      "type": "blackhole",
+      "x": 510,
+      "y": 267,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 3.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 464,
+      "y": 330,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 536,
+      "y": 330,
+      "collected": true
+    }
+  ],
+  "skyTheme": "azure-noon",
+  "wallTheme": "brick-red",
+  "penColor": "black"
+}

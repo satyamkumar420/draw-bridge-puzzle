@@ -1,0 +1,107 @@
+{
+  "id": "level-37",
+  "name": "Level 37",
+  "description": "Canyon Ascent: Uphill mountain climb over ground spikes and a spinning razor chakra!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 407.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 687,
+    "y": 268,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 0,
+      "y": 430,
+      "width": 330,
+      "height": 170
+    },
+    {
+      "id": "t-bottom-37-0",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 330,
+      "y": 530,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "desert-sand",
+      "x": 570,
+      "y": 270,
+      "width": 430,
+      "height": 330
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "spikes",
+      "x": 350,
+      "y": 495,
+      "width": 200,
+      "height": 35
+    },
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 281,
+      "y": 251,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 170,
+        "speed": 3.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790761341156",
+      "type": "plasma",
+      "x": 386,
+      "y": 188,
+      "width": 86,
+      "height": 86,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790761371772",
+      "type": "tesla",
+      "x": 603,
+      "y": 203,
+      "width": 50,
+      "height": 65
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 390,
+      "y": 380
+    },
+    {
+      "id": "c-2",
+      "x": 520,
+      "y": 220
+    }
+  ],
+  "skyTheme": "desert-mirage",
+  "wallTheme": "desert-sand",
+  "penColor": "black"
+}

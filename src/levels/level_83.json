@@ -1,0 +1,87 @@
+{
+  "id": "level-83",
+  "name": "Level 83",
+  "description": "Terrace Cascades: Two-stage descending staircase!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 443.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 763,
+    "y": 394,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 0,
+      "y": 466,
+      "width": 318,
+      "height": 378
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 318,
+      "y": 295,
+      "width": 366,
+      "height": 304
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 666,
+      "y": 396,
+      "width": 340,
+      "height": 203
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1790746365755",
+      "type": "guillotine",
+      "x": 547,
+      "y": 131,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790746368243",
+      "type": "guillotine",
+      "x": 386,
+      "y": 188,
+      "width": 60,
+      "height": 70
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 368,
+      "y": 310,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 713,
+      "y": 434,
+      "collected": false
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

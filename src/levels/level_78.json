@@ -1,0 +1,115 @@
+{
+  "id": "level-78",
+  "name": "Level 78",
+  "description": "Cliff Plunge Canyon: Steep 189px drop across a 271px gorge!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 384.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 659,
+    "y": 435,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 3,
+      "y": 407,
+      "width": 328,
+      "height": 354
+    },
+    {
+      "id": "t-bottom-78-0",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 328,
+      "y": 530,
+      "width": 271,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 599,
+      "y": 435,
+      "width": 401,
+      "height": 165
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "plasma",
+      "x": 444,
+      "y": 294,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 260,
+        "speed": 4.2,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "blackhole",
+      "x": 593,
+      "y": 351,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 4.2,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790744212783",
+      "type": "mine",
+      "x": 272,
+      "y": 257,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 185,
+        "speed": 4.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790744363696",
+      "type": "spikes",
+      "x": 338,
+      "y": 498,
+      "width": 263,
+      "height": 30
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 288,
+      "y": 196,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 639,
+      "y": 385,
+      "collected": false
+    }
+  ],
+  "skyTheme": "deep-space",
+  "wallTheme": "dark-slate",
+  "penColor": "black"
+}

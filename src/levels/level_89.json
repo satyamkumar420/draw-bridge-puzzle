@@ -1,0 +1,127 @@
+{
+  "id": "level-89",
+  "name": "Level 89",
+  "description": "Imperial Bastion Spire: Multi-elevation fortress climb over crusher, summit wrecking ball, and plasma chasm!",
+  "gravity": 11.8,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 360,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 0,
+      "y": 380,
+      "width": 220,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-89-0",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 220,
+      "y": 530,
+      "width": 160,
+      "height": 70
+    },
+    {
+      "id": "central-spire",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 380,
+      "y": 240,
+      "width": 160,
+      "height": 360
+    },
+    {
+      "id": "t-bottom-89-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 540,
+      "y": 530,
+      "width": 160,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 700,
+      "y": 360,
+      "width": 300,
+      "height": 240
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 423,
+      "y": 102,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 4.9,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "plasma",
+      "x": 611,
+      "y": 205,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 4.9,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790748097508",
+      "type": "laser",
+      "x": 217,
+      "y": 387,
+      "width": 163,
+      "height": 60
+    },
+    {
+      "id": "h-1790748114701",
+      "type": "stalactite",
+      "x": 547,
+      "y": 463,
+      "width": 149,
+      "height": 67
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 300,
+      "y": 210,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 620,
+      "y": 210,
+      "collected": true
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

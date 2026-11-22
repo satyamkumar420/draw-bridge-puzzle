@@ -1,0 +1,87 @@
+{
+  "id": "level-3",
+  "name": "Level 3",
+  "description": "Blazing Pendulum: Roaring flames below and swinging blade above! Draw a curved bridge to bypass!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 665,
+    "y": 380,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 0,
+      "y": 380,
+      "width": 415,
+      "height": 220
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 585,
+      "y": 380,
+      "width": 415,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-3-0",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 415,
+      "y": 530,
+      "width": 170,
+      "height": 70
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "fire",
+      "x": 415,
+      "y": 470,
+      "width": 170,
+      "height": 60
+    },
+    {
+      "id": "h-2",
+      "type": "guillotine",
+      "x": 357,
+      "y": 267,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 35,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 466,
+      "y": 330,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 534,
+      "y": 330,
+      "collected": false
+    }
+  ],
+  "skyTheme": "azure-noon",
+  "wallTheme": "brick-red",
+  "penColor": "black"
+}

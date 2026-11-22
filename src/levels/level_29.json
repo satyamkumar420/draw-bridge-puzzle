@@ -1,0 +1,93 @@
+{
+  "id": "level-29",
+  "name": "Level 29",
+  "description": "Mesa Fortress: Scaled 132px summit!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 388.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 783,
+    "y": 411,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 0,
+      "y": 411,
+      "width": 285,
+      "height": 189
+    },
+    {
+      "id": "central-mesa",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 285,
+      "y": 314,
+      "width": 378,
+      "height": 321
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 663,
+      "y": 411,
+      "width": 337,
+      "height": 189
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 452,
+      "y": 134,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 200,
+        "speed": 2.98,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "plasma",
+      "x": 670,
+      "y": 153,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 5,
+        "phase": 1.5707963267948966
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 345,
+      "y": 239,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 603,
+      "y": 239,
+      "collected": false
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

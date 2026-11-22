@@ -1,0 +1,141 @@
+{
+  "id": "level-57",
+  "name": "Level 57",
+  "description": "Elevated Stepping Island: High central plateau standing tall above two chasms!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 335.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 795,
+    "y": 380,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 358,
+      "width": 265,
+      "height": 242
+    },
+    {
+      "id": "t-bottom-57-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 265,
+      "y": 530,
+      "width": 158,
+      "height": 70
+    },
+    {
+      "id": "stepping-island",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 265,
+      "y": 286,
+      "width": 157,
+      "height": 311
+    },
+    {
+      "id": "t-bottom-57-1",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 591,
+      "y": 530,
+      "width": 158,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 749,
+      "y": 380,
+      "width": 251,
+      "height": 220
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "meteor",
+      "x": 602,
+      "y": 207,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 3.5,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "mine",
+      "x": 743,
+      "y": 278,
+      "width": 40,
+      "height": 30,
+      "movement": {
+        "axis": "vertical",
+        "distance": 105,
+        "speed": 3.5,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790680634641",
+      "type": "guillotine",
+      "x": 318,
+      "y": 123,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790680679577",
+      "type": "laser",
+      "x": 420,
+      "y": 396,
+      "width": 329,
+      "height": 60
+    },
+    {
+      "id": "h-1790766311693",
+      "type": "water",
+      "x": 423,
+      "y": 524,
+      "width": 168,
+      "height": 77
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 344,
+      "y": 318,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 670,
+      "y": 340,
+      "collected": true
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

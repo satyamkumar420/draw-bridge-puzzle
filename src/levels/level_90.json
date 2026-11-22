@@ -1,0 +1,139 @@
+{
+  "id": "level-90",
+  "name": "Level 90",
+  "description": "Imperial Skyline Rollercoaster: Plunge 170px into sunken bastion, then climb 190px over crusher, wrecking ball, and plasma chasm!",
+  "gravity": 11.8,
+  "spawn": {
+    "x": 55,
+    "y": 448.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 210,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 1,
+      "y": 471,
+      "width": 220,
+      "height": 370
+    },
+    {
+      "id": "t-bottom-90-0",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 219,
+      "y": 508,
+      "width": 161,
+      "height": 92
+    },
+    {
+      "id": "mid-bastion",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 380,
+      "y": 400,
+      "width": 160,
+      "height": 200
+    },
+    {
+      "id": "t-bottom-90-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 540,
+      "y": 530,
+      "width": 180,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 390
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "wrecking_ball",
+      "x": 423,
+      "y": 192,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 4.5,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "plasma",
+      "x": 567,
+      "y": 123,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 55,
+        "speed": 4.5,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790749134338",
+      "type": "crusher",
+      "x": 261,
+      "y": 367,
+      "width": 90,
+      "height": 56,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790749203161",
+      "type": "stalactite",
+      "x": 590,
+      "y": 480,
+      "width": 70,
+      "height": 50,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 300,
+      "y": 220,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 630,
+      "y": 200,
+      "collected": true
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

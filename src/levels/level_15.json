@@ -1,0 +1,94 @@
+{
+  "id": "level-15",
+  "name": "Level 15",
+  "description": "Spike Ridge Pendulum: Razor ground spikes and fast overhead guillotine guarding a 220px climb!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 417.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 759,
+    "y": 217,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 440,
+      "width": 365,
+      "height": 160
+    },
+    {
+      "id": "t-bottom-15-0",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 365,
+      "y": 530,
+      "width": 370,
+      "height": 70
+    },
+    {
+      "id": "tower-goal",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 735,
+      "y": 220,
+      "width": 265,
+      "height": 380
+    },
+    {
+      "id": "t-1790659563991",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 364,
+      "y": 268,
+      "width": 172,
+      "height": 266
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "spikes",
+      "x": 362,
+      "y": 230,
+      "width": 177,
+      "height": 36
+    },
+    {
+      "id": "h-1790764038013",
+      "type": "stalactite",
+      "x": 598,
+      "y": 479,
+      "width": 70,
+      "height": 50,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 425,
+      "y": 330
+    },
+    {
+      "id": "c-2",
+      "x": 675,
+      "y": 270
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

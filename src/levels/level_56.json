@@ -1,0 +1,133 @@
+{
+  "id": "level-56",
+  "name": "Level 56",
+  "description": "Twin Crevasse Highway: Dual narrow slit chasms surrounding a central checkpoint!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 337.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 360,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "road-1",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 360,
+      "width": 321,
+      "height": 240
+    },
+    {
+      "id": "t-bottom-56-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 321,
+      "y": 511,
+      "width": 88,
+      "height": 90
+    },
+    {
+      "id": "mid-island",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 409,
+      "y": 360,
+      "width": 175,
+      "height": 240
+    },
+    {
+      "id": "t-bottom-56-1",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 584,
+      "y": 530,
+      "width": 88,
+      "height": 70
+    },
+    {
+      "id": "road-2",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 672,
+      "y": 360,
+      "width": 328,
+      "height": 240
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 345,
+      "y": 217,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 135,
+        "speed": 3.4,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "plasma",
+      "x": 476,
+      "y": 225,
+      "width": 44,
+      "height": 44,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 3.4,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "blackhole",
+      "x": 601,
+      "y": 259,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 1.75,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790766282205",
+      "type": "crusher",
+      "x": 592,
+      "y": 470,
+      "width": 70,
+      "height": 60
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 365,
+      "y": 310,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 628,
+      "y": 310,
+      "collected": true
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

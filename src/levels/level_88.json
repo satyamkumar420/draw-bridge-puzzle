@@ -1,0 +1,115 @@
+{
+  "id": "level-88",
+  "name": "Level 88",
+  "description": "Apex Mountain Ascent: Steep 200px climb across razor spikes, crusher, and wrecking_ball!",
+  "gravity": 11.8,
+  "spawn": {
+    "x": 55,
+    "y": 417.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 240,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 0,
+      "y": 440,
+      "width": 320,
+      "height": 160
+    },
+    {
+      "id": "t-bottom-88-0",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 320,
+      "y": 537,
+      "width": 270,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 590,
+      "y": 240,
+      "width": 410,
+      "height": 360
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "stalactite",
+      "x": 342,
+      "y": 475,
+      "width": 221,
+      "height": 61,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 36,
+        "speed": 4.8,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790747861245",
+      "type": "tesla",
+      "x": 601,
+      "y": 172,
+      "width": 50,
+      "height": 65
+    },
+    {
+      "id": "h-1790747876099",
+      "type": "guillotine",
+      "x": 260,
+      "y": 278,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 170,
+        "speed": 4.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790747923258",
+      "type": "blackhole",
+      "x": 413,
+      "y": 204,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 170,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 380,
+      "y": 390,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 540,
+      "y": 190,
+      "collected": true
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

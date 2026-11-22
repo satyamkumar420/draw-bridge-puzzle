@@ -1,0 +1,116 @@
+{
+  "id": "level-17",
+  "name": "Level 17",
+  "description": "Dark Void Trench: Gravitational singularity hovering directly over razor floor spikes!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 252.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 734,
+    "y": 273,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 275,
+      "width": 292,
+      "height": 325
+    },
+    {
+      "id": "trench-floor",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 292,
+      "y": 510,
+      "width": 429,
+      "height": 90
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 721,
+      "y": 275,
+      "width": 279,
+      "height": 325
+    },
+    {
+      "id": "t-1790659894031",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 451,
+      "y": 176,
+      "width": 132,
+      "height": 337
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "blackhole",
+      "x": 298,
+      "y": 110,
+      "width": 73,
+      "height": 73,
+      "movement": {
+        "axis": "vertical",
+        "distance": 205,
+        "speed": 2.74,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "spikes",
+      "x": 292,
+      "y": 474,
+      "width": 162,
+      "height": 38
+    },
+    {
+      "id": "h-1790659940399",
+      "type": "chakra",
+      "x": 470,
+      "y": 64,
+      "width": 73,
+      "height": 58,
+      "movement": {
+        "axis": "vertical",
+        "distance": 110,
+        "speed": 3.75,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790763924665",
+      "type": "stalactite",
+      "x": 594,
+      "y": 458,
+      "width": 112,
+      "height": 52
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 372,
+      "y": 235
+    },
+    {
+      "id": "c-2",
+      "x": 641,
+      "y": 235
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}

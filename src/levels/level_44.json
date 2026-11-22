@@ -1,0 +1,119 @@
+{
+  "id": "level-44",
+  "name": "Level 44",
+  "description": "Double Chasm Pillar: Two deep pits separated by an isolated stone pillar!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 377.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 711,
+    "y": 400,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 400,
+      "width": 274,
+      "height": 200
+    },
+    {
+      "id": "t-bottom-44-0",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 274,
+      "y": 509,
+      "width": 129,
+      "height": 92
+    },
+    {
+      "id": "mid-pillar",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 402,
+      "y": 400,
+      "width": 121,
+      "height": 200
+    },
+    {
+      "id": "t-bottom-44-1",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 523,
+      "y": 530,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 651,
+      "y": 400,
+      "width": 349,
+      "height": 200
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 301,
+      "y": 346,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 3.7,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "guillotine",
+      "x": 443,
+      "y": 228,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 3.7,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790675929221",
+      "type": "fire",
+      "x": 523,
+      "y": 461,
+      "width": 128,
+      "height": 69
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 338,
+      "y": 350,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 587,
+      "y": 350,
+      "collected": true
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

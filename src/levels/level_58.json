@@ -1,0 +1,121 @@
+{
+  "id": "level-58",
+  "name": "Level 58",
+  "description": "Finish Line Chasm: High-speed sprint runway leading directly into a pit!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 349.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 372,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "runway",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 372,
+      "width": 591,
+      "height": 228
+    },
+    {
+      "id": "t-bottom-58-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 591,
+      "y": 530,
+      "width": 210,
+      "height": 70
+    },
+    {
+      "id": "goal-ledge",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 801,
+      "y": 372,
+      "width": 199,
+      "height": 228
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 353,
+      "y": 269,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 3.6,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "toxic_barrel",
+      "x": 527,
+      "y": 331,
+      "width": 42,
+      "height": 44,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 40,
+        "speed": 3.6,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790680842074",
+      "type": "meteor",
+      "x": 653,
+      "y": 229,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790680856450",
+      "type": "stalactite",
+      "x": 637,
+      "y": 469,
+      "width": 116,
+      "height": 61,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 511,
+      "y": 322,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 696,
+      "y": 322,
+      "collected": false
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

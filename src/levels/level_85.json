@@ -1,0 +1,115 @@
+{
+  "id": "level-85",
+  "name": "Level 85",
+  "description": "Imperial Citadel Plunge: Sheer 230px drop guarded by wrecking ball, razor chakra, and tesla!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 343.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 722,
+    "y": 232,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 0,
+      "y": 366,
+      "width": 320,
+      "height": 390
+    },
+    {
+      "id": "t-bottom-85-0",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 320,
+      "y": 530,
+      "width": 280,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 599,
+      "y": 234,
+      "width": 401,
+      "height": 369
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 244,
+      "y": 214,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 3.9,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 603,
+      "y": 96,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 4.2,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790746804229",
+      "type": "acid",
+      "x": 320,
+      "y": 404,
+      "width": 277,
+      "height": 125
+    },
+    {
+      "id": "h-1790746816878",
+      "type": "blackhole",
+      "x": 414,
+      "y": 210,
+      "width": 55,
+      "height": 55,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 2.25,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 370,
+      "y": 270,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 550,
+      "y": 390,
+      "collected": false
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "level-50",
+  "name": "Level 50",
+  "description": "Ascending Terraces: Two-stage climb to the peak!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 437.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 245,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 0,
+      "y": 460,
+      "width": 315,
+      "height": 140
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 315,
+      "y": 350,
+      "width": 320,
+      "height": 250
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 635,
+      "y": 245,
+      "width": 365,
+      "height": 355
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 327,
+      "y": 208,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 130,
+        "speed": 2.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "blackhole",
+      "x": 665,
+      "y": 194,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790678517343",
+      "type": "mine",
+      "x": 515,
+      "y": 211,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 1.75,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 365,
+      "y": 300,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 685,
+      "y": 195,
+      "collected": true
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

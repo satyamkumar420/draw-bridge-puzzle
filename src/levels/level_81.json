@@ -1,0 +1,168 @@
+{
+  "id": "level-81",
+  "name": "Level 81",
+  "description": "Triple Gorge Run: Three consecutive chasms with two stepping stones!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 357.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 380,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 0,
+      "y": 380,
+      "width": 187,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-81-0",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 187,
+      "y": 530,
+      "width": 115,
+      "height": 70
+    },
+    {
+      "id": "pillar-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 302,
+      "y": 380,
+      "width": 98,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-81-1",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 400,
+      "y": 530,
+      "width": 115,
+      "height": 70
+    },
+    {
+      "id": "pillar-2",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 515,
+      "y": 380,
+      "width": 99,
+      "height": 220
+    },
+    {
+      "id": "t-bottom-81-2",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 614,
+      "y": 530,
+      "width": 115,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 729,
+      "y": 380,
+      "width": 271,
+      "height": 220
+    },
+    {
+      "id": "t-1790745557806",
+      "type": "brick",
+      "theme": "gold-metal",
+      "x": 400,
+      "y": 473,
+      "width": 120,
+      "height": 60
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-3",
+      "type": "mine",
+      "x": 323,
+      "y": 184,
+      "width": 53,
+      "height": 71,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 4,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790745598302",
+      "type": "fire",
+      "x": 615,
+      "y": 477,
+      "width": 111,
+      "height": 52
+    },
+    {
+      "id": "h-1790745601119",
+      "type": "crusher",
+      "x": 421,
+      "y": 344,
+      "width": 70,
+      "height": 60,
+      "movement": {
+        "axis": "vertical",
+        "distance": 80,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790745739607",
+      "type": "plasma",
+      "x": 613,
+      "y": 196,
+      "width": 86,
+      "height": 86,
+      "movement": {
+        "axis": "vertical",
+        "distance": 155,
+        "speed": 3.25,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790766596936",
+      "type": "spikes",
+      "x": 195,
+      "y": 501,
+      "width": 99,
+      "height": 30
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 351,
+      "y": 330,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 671.5,
+      "y": 330,
+      "collected": true
+    }
+  ],
+  "skyTheme": "sunset-glow",
+  "wallTheme": "gold-metal",
+  "penColor": "black"
+}

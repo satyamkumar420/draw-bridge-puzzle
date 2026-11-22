@@ -1,0 +1,100 @@
+{
+  "id": "level-10",
+  "name": "Level 10",
+  "description": "Four-Step Mountain Pinnacle: Steep 265px 4-tier climb under crushing hammer, mine, and spinning chakra!",
+  "gravity": 10,
+  "spawn": {
+    "x": 55,
+    "y": 457.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 792,
+    "y": 213,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 0,
+      "y": 480,
+      "width": 260,
+      "height": 120
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 260,
+      "y": 390,
+      "width": 240,
+      "height": 210
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 500,
+      "y": 300,
+      "width": 240,
+      "height": 300
+    },
+    {
+      "id": "tier-4",
+      "type": "brick",
+      "theme": "brick-red",
+      "x": 740,
+      "y": 215,
+      "width": 260,
+      "height": 385
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 628,
+      "y": 85,
+      "width": 43,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 4.2,
+        "phase": 3.14
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "chakra",
+      "x": 430,
+      "y": 242,
+      "width": 40,
+      "height": 38,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 40,
+        "speed": 3.5,
+        "phase": 1.57
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 380,
+      "y": 230
+    },
+    {
+      "id": "c-2",
+      "x": 620,
+      "y": 140
+    }
+  ],
+  "skyTheme": "azure-noon",
+  "wallTheme": "brick-red",
+  "penColor": "black"
+}

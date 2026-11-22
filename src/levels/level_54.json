@@ -1,0 +1,108 @@
+{
+  "id": "level-54",
+  "name": "Level 54",
+  "description": "Ski Jump Speed Run: High-speed acceleration ramp into hazard gap!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 405.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 786,
+    "y": 401,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "launch-deck",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 0,
+      "y": 428,
+      "width": 264,
+      "height": 374
+    },
+    {
+      "id": "slope-terrace",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 264,
+      "y": 355,
+      "width": 230,
+      "height": 245
+    },
+    {
+      "id": "t-bottom-54-0",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 494,
+      "y": 530,
+      "width": 210,
+      "height": 70
+    },
+    {
+      "id": "landing-deck",
+      "type": "brick",
+      "theme": "cyber-blue",
+      "x": 704,
+      "y": 402,
+      "width": 296,
+      "height": 198
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-2",
+      "type": "chakra",
+      "x": 376,
+      "y": 181,
+      "width": 53,
+      "height": 75,
+      "movement": {
+        "axis": "vertical",
+        "distance": 190,
+        "speed": 2.5,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "mine",
+      "x": 707,
+      "y": 229,
+      "width": 50,
+      "height": 49,
+      "movement": {
+        "axis": "vertical",
+        "distance": 195,
+        "speed": 3,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790766191589",
+      "type": "ice_spikes",
+      "x": 513,
+      "y": 449,
+      "width": 176,
+      "height": 82
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 314,
+      "y": 305
+    },
+    {
+      "id": "c-2",
+      "x": 599,
+      "y": 325
+    }
+  ],
+  "skyTheme": "midnight-nebula",
+  "wallTheme": "cyber-blue",
+  "penColor": "black"
+}

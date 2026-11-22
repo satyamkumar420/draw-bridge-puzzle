@@ -1,0 +1,118 @@
+{
+  "id": "level-30",
+  "name": "Level 30",
+  "description": "Valley Crater Plunge: Steep 155px drop across sunken crater!",
+  "gravity": 10.2,
+  "spawn": {
+    "x": 55,
+    "y": 366.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 728,
+    "y": 426,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": -2,
+      "y": 389,
+      "width": 265,
+      "height": 325
+    },
+    {
+      "id": "valley-floor",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 263,
+      "y": 511,
+      "width": 392,
+      "height": 90
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 655,
+      "y": 430,
+      "width": 345,
+      "height": 170
+    },
+    {
+      "id": "t-1790667782413",
+      "type": "brick",
+      "theme": "stone-gray",
+      "x": 421,
+      "y": 240,
+      "width": 155,
+      "height": 346
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 206,
+      "y": 229,
+      "width": 66,
+      "height": 64,
+      "movement": {
+        "axis": "vertical",
+        "distance": 125,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "mine",
+      "x": 490,
+      "y": 101,
+      "width": 40,
+      "height": 30,
+      "movement": {
+        "axis": "vertical",
+        "distance": 155,
+        "speed": 4.25,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-1790765372800",
+      "type": "fire",
+      "x": 577,
+      "y": 462,
+      "width": 75,
+      "height": 48
+    },
+    {
+      "id": "h-1790765377009",
+      "type": "water",
+      "x": 263,
+      "y": 453,
+      "width": 158,
+      "height": 59
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 335,
+      "y": 235,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 585,
+      "y": 235,
+      "collected": false
+    }
+  ],
+  "skyTheme": "stormy-tempest",
+  "wallTheme": "stone-gray",
+  "penColor": "black"
+}

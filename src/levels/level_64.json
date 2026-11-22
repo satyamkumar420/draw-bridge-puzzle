@@ -1,0 +1,112 @@
+{
+  "id": "level-64",
+  "name": "Level 64",
+  "description": "Sheer Cliff Plunge: Vertical drop of 196px!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 344.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 779,
+    "y": 449,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 1,
+      "y": 367,
+      "width": 398,
+      "height": 345
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "magma-orange",
+      "x": 398,
+      "y": 451,
+      "width": 602,
+      "height": 149
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "guillotine",
+      "x": 287,
+      "y": 230,
+      "width": 46,
+      "height": 54,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 4.3,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-2",
+      "type": "meteor",
+      "x": 446,
+      "y": 317,
+      "width": 46,
+      "height": 46,
+      "movement": {
+        "axis": "vertical",
+        "distance": 140,
+        "speed": 2,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "blackhole",
+      "x": 579,
+      "y": 341,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 2.5,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790683094525",
+      "type": "wrecking_ball",
+      "x": 676,
+      "y": 300,
+      "width": 55,
+      "height": 65,
+      "movement": {
+        "axis": "vertical",
+        "distance": 120,
+        "speed": 2.5,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 348,
+      "y": 205,
+      "collected": false
+    },
+    {
+      "id": "c-2",
+      "x": 558,
+      "y": 391,
+      "collected": true
+    }
+  ],
+  "skyTheme": "volcanic-ember",
+  "wallTheme": "magma-orange",
+  "penColor": "black"
+}

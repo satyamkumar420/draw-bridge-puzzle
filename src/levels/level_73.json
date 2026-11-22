@@ -1,0 +1,115 @@
+{
+  "id": "level-73",
+  "name": "Level 73",
+  "description": "Narrow Slot Ravine: Deep vertical gorge swept by obstacles!",
+  "gravity": 11.2,
+  "spawn": {
+    "x": 55,
+    "y": 345.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 368,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 0,
+      "y": 368,
+      "width": 431,
+      "height": 232
+    },
+    {
+      "id": "t-bottom-73-0",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 431,
+      "y": 530,
+      "width": 178,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "dark-slate",
+      "x": 609,
+      "y": 368,
+      "width": 391,
+      "height": 232
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "wrecking_ball",
+      "x": 360,
+      "y": 211,
+      "width": 48,
+      "height": 48,
+      "movement": {
+        "axis": "vertical",
+        "distance": 180,
+        "speed": 4.2,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "tnt",
+      "x": 695,
+      "y": 326,
+      "width": 42,
+      "height": 42,
+      "movement": {
+        "axis": "horizontal",
+        "distance": 155,
+        "speed": 4.2,
+        "phase": 3.141592653589793
+      }
+    },
+    {
+      "id": "h-1790743235457",
+      "type": "plasma",
+      "x": 519,
+      "y": 128,
+      "width": 86,
+      "height": 86,
+      "movement": {
+        "axis": "vertical",
+        "distance": 160,
+        "speed": 2.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790743280226",
+      "type": "fire",
+      "x": 431,
+      "y": 429,
+      "width": 172,
+      "height": 97
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 401,
+      "y": 318,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 639,
+      "y": 318,
+      "collected": true
+    }
+  ],
+  "skyTheme": "deep-space",
+  "wallTheme": "dark-slate",
+  "penColor": "black"
+}

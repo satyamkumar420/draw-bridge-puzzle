@@ -1,0 +1,106 @@
+{
+  "id": "level-47",
+  "name": "Level 47",
+  "description": "Terrace Cascades: Two-stage descending staircase!",
+  "gravity": 10.6,
+  "spawn": {
+    "x": 55,
+    "y": 403.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 840,
+    "y": 476,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "tier-1",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 1,
+      "y": 426,
+      "width": 312,
+      "height": 362
+    },
+    {
+      "id": "tier-2",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 312,
+      "y": 355,
+      "width": 345,
+      "height": 245
+    },
+    {
+      "id": "tier-3",
+      "type": "brick",
+      "theme": "ice-cyan",
+      "x": 657,
+      "y": 476,
+      "width": 343,
+      "height": 124
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "crusher",
+      "x": 360,
+      "y": 223,
+      "width": 48,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 100,
+        "speed": 3.5,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790677702419",
+      "type": "chakra",
+      "x": 721,
+      "y": 325,
+      "width": 50,
+      "height": 50,
+      "movement": {
+        "axis": "vertical",
+        "distance": 190,
+        "speed": 1.75,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-1790677781260",
+      "type": "guillotine",
+      "x": 599,
+      "y": 116,
+      "width": 60,
+      "height": 70,
+      "movement": {
+        "axis": "vertical",
+        "distance": 175,
+        "speed": 3,
+        "phase": 0
+      }
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 362,
+      "y": 305,
+      "collected": true
+    },
+    {
+      "id": "c-2",
+      "x": 707,
+      "y": 426
+    }
+  ],
+  "skyTheme": "glacier-ice",
+  "wallTheme": "ice-cyan",
+  "penColor": "black"
+}

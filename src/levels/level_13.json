@@ -1,0 +1,119 @@
+{
+  "id": "level-13",
+  "name": "Level 13",
+  "description": "Twin Abyss Gauntlet: Dual chasms guarded by acid cauldron, descending meteor, and Tesla zap coil!",
+  "gravity": 9.8,
+  "spawn": {
+    "x": 55,
+    "y": 348.5,
+    "angle": 0
+  },
+  "goal": {
+    "x": 850,
+    "y": 371,
+    "width": 60,
+    "height": 80
+  },
+  "terrains": [
+    {
+      "id": "left-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 0,
+      "y": 371,
+      "width": 252,
+      "height": 229
+    },
+    {
+      "id": "t-bottom-13-0",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 252,
+      "y": 530,
+      "width": 139,
+      "height": 70
+    },
+    {
+      "id": "road-mid",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 390,
+      "y": 371,
+      "width": 175,
+      "height": 229
+    },
+    {
+      "id": "t-bottom-13-1",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 565,
+      "y": 530,
+      "width": 134,
+      "height": 70
+    },
+    {
+      "id": "right-cliff",
+      "type": "brick",
+      "theme": "moss-green",
+      "x": 698,
+      "y": 371,
+      "width": 302,
+      "height": 229
+    }
+  ],
+  "hazards": [
+    {
+      "id": "h-1",
+      "type": "acid",
+      "x": 251,
+      "y": 389,
+      "width": 140,
+      "height": 142
+    },
+    {
+      "id": "h-2",
+      "type": "meteor",
+      "x": 426,
+      "y": 241,
+      "width": 112,
+      "height": 106,
+      "movement": {
+        "axis": "vertical",
+        "distance": 40,
+        "speed": 3.2,
+        "phase": 0
+      }
+    },
+    {
+      "id": "h-3",
+      "type": "tesla",
+      "x": 701,
+      "y": 306,
+      "width": 48,
+      "height": 65
+    },
+    {
+      "id": "h-1790763848033",
+      "type": "spikes",
+      "x": 570,
+      "y": 486,
+      "width": 129,
+      "height": 42
+    }
+  ],
+  "coins": [
+    {
+      "id": "c-1",
+      "x": 321.5,
+      "y": 321
+    },
+    {
+      "id": "c-2",
+      "x": 632,
+      "y": 321
+    }
+  ],
+  "skyTheme": "tropical-emerald",
+  "wallTheme": "moss-green",
+  "penColor": "black"
+}
