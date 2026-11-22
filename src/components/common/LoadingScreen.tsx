@@ -156,49 +156,6 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({
             animation: 'fadeUp 0.6s ease'
           }}
         >
-          {/* Branding Logo & App Title */}
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              textAlign: 'center'
-            }}
-          >
-            <img
-              src="./logo.webp"
-              alt="Cloudz Fun"
-              onError={(e) => {
-                const img = e.currentTarget;
-                if (!img.dataset.failed) {
-                  img.dataset.failed = 'true';
-                  img.src = '/logo.webp';
-                }
-              }}
-              style={{
-                width: '64px',
-                height: '64px',
-                objectFit: 'contain',
-                marginBottom: '6px',
-                animation: 'pulseGlow 2.5s ease-in-out infinite'
-              }}
-            />
-            <h1
-              style={{
-                color: '#ffffff',
-                fontSize: '20px',
-                fontWeight: 900,
-                letterSpacing: '0.2em',
-                textTransform: 'uppercase',
-                margin: 0,
-                fontFamily: 'var(--font-game, "Lilita One", "Fredoka", cursive, system-ui, sans-serif)',
-                textShadow: '0 2px 8px rgba(0, 0, 0, 0.6)'
-              }}
-            >
-              CLOUDZ FUN
-            </h1>
-          </div>
 
           {/* Game Title */}
           <div style={{ textAlign: 'center' }}>

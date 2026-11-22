@@ -583,15 +583,10 @@ function AppInner() {
         onClose={() => setIsLevelSelectOpen(false)}
       />
 
-      {/* Loading Screen for YouTube Playables firstFrameReady -> gameReady Flow */}
       {isLoading && (
         <LoadingScreen
-          onFirstFrame={() => {
-            youtubePlayables.firstFrameReady();
-          }}
           onComplete={() => {
             setIsLoading(false);
-            youtubePlayables.gameReady();
           }}
         />
       )}

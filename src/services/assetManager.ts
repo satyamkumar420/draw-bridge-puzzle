@@ -39,7 +39,6 @@ export const VEHICLE_IMAGE_PATHS: Record<string, { body: string; wheel: string }
 export const UI_IMAGE_PATHS: Record<string, string> = {
   cash: './assets/game_cash.png',
   level_complete: './assets/level_complete.png',
-  logo: './logo.webp',
   favicon: './favicon.svg'
 };
 
